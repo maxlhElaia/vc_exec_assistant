@@ -6,7 +6,8 @@ class Company(BaseModel):
 
 class Signal(BaseModel):
     id: str
-    trigger: datetime.datetime
+    start_time: datetime.datetime
+    end_time: datetime.datetime
     # signaltype: str
     title: str
     description: str
@@ -40,10 +41,14 @@ class Action(BaseModel):
     url: str|None
     score: float
 
+class Contact(BaseModel):
+    name: str
+    email: str
+
 class Company(BaseModel):
     name: str
     domain: str
     description: str
     industry: str
     location: str
-
+    primary_contact: Contact|None

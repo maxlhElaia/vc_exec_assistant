@@ -11,11 +11,13 @@ def generate_signals() -> typing.Iterable[Signal]:
             domain='example.com',
             industry='example',
             location='Paris, France',
+            primary_contact=None,
         )
 
         signal = HeadcountChangeSignal(
             id=str(i),
-            trigger=datetime.datetime.now(),
+            start_time=datetime.datetime.now(),
+            end_time=datetime.datetime.now(),
             title='',
             description='',
             company=company.model_dump(),
