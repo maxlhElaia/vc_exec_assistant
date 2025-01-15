@@ -21,3 +21,20 @@ pip install -r requirements.txt
 ```
 python -m app.cli
 ```
+
+## dumping and reading data
+```
+from pydantic.json import pydantic_encoder
+
+...
+
+# dumping
+with open('.data/signals/linkedin/signals.json', 'w') as fp:
+    json.dump([signal.model_dump() for signal in signals], fp, indent=2, default=pydantic_encoder)
+
+# loading
+with open('.data/signals/linkedin/signals.json', 'r') as fp:
+    data = json.load(fp)
+    for elem in data:
+        print(HeadcountChangeSignal.model_validate(elem))
+```
