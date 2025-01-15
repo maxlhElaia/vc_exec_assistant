@@ -10,8 +10,14 @@ Data-Driven Hackathon
 ## {Description / Instructions / Prerequisites...}
 
 ## Installation
+This creates a data
 ```
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
+
+## Run
+```
+python -m app.cli
 ```
