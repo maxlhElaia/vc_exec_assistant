@@ -4,7 +4,7 @@ import random
 import uuid  
 from datetime import datetime  
 from dateutil.relativedelta import relativedelta  # Import relativedelta  
-from models import Company, ReportingChangeSignal
+from models import Company, ReportingChangeSignal, Contact
   
 # Define company profiles with consistent growth rates  
 companies = [  
@@ -416,12 +416,89 @@ def serialize_signal(signal):
         signal_dict['runway_months_new'] = 'infinite'  
     if signal_dict['runway_months_old'] == float('inf'):  
         signal_dict['runway_months_old'] = 'infinite'  
-    return signal_dict  
+    return signal_dict 
+
+def get_latest_reporting_change_signal(company_name):  
+    """Reads the ReportingChangeSignal.json file and returns the latest ReportingChangeSignal object for the given company."""  
+    signals = []  
+      
+    if os.path.exists(SIGNALS_FILE):  
+        with open(SIGNALS_FILE, 'r') as f:  
+            signals_data = json.load(f)  
+          
+        for signal_data in signals_data:  
+            if signal_data['company']['name'] == company_name:  
+                # Reconstruct datetime fields  
+                start_time = datetime.strptime(signal_data['start_time'], '%Y-%m')  
+                end_time = datetime.strptime(signal_data['end_time'], '%Y-%m')  
+                  
+                # Reconstruct the primary_contact  
+                company_data = signal_data['company']  
+                primary_contact_data = company_data.get('primary_contact')  
+                if primary_contact_data is not None:  
+                    primary_contact = Contact(  
+                        name=primary_contact_data['name'],  
+                        email=primary_contact_data['email']  
+                    )  
+                else:  
+                    primary_contact = None  
+                  
+                # Reconstruct the company object  
+                company = Company(  
+                    name=company_data['name'],  
+                    domain=company_data.get('domain'),  
+                    linkedin_url=company_data.get('linkedin_url'),  
+                    description=company_data.get('description'),  
+                    industry=company_data.get('industry'),  
+                    location=company_data.get('location'),  
+                    primary_contact=primary_contact  
+                )  
+                  
+                # Handle 'infinite' values for runway_months  
+                runway_months_new = float('inf') if signal_data['runway_months_new'] == 'infinite' else float(signal_data['runway_months_new'])  
+                runway_months_old = float('inf') if signal_data['runway_months_old'] == 'infinite' else float(signal_data['runway_months_old'])  
+                  
+                # Create the ReportingChangeSignal object  
+                signal = ReportingChangeSignal(  
+                    id=signal_data['id'],  
+                    start_time=start_time,  
+                    end_time=end_time,  
+                    title=signal_data['title'],  
+                    description=signal_data['description'],  
+                    company=company,  
+                    revenues_new=float(signal_data['revenues_new']),  
+                    cash_eop_new=float(signal_data['cash_eop_new']),  
+                    ebitda_new=float(signal_data['ebitda_new']),  
+                    runway_months_new=runway_months_new,  
+                    staff_new=float(signal_data['staff_new']),  
+                    clients_new=float(signal_data['clients_new']),  
+                    arr_new=float(signal_data['arr_new']),  
+                    revenues_old=float(signal_data['revenues_old']),  
+                    cash_eop_old=float(signal_data['cash_eop_old']),  
+                    ebitda_old=float(signal_data['ebitda_old']),  
+                    runway_months_old=runway_months_old,  
+                    staff_old=float(signal_data['staff_old']),  
+                    clients_old=float(signal_data['clients_old']),  
+                    arr_old=float(signal_data['arr_old'])  
+                )  
+                signals.append(signal)  
+    else:  
+        print(f"No signals file found at {SIGNALS_FILE}.")  
+        return None  
+      
+    if not signals:  
+        print(f"No signals found for company '{company_name}'.")  
+        return None  
+      
+    # Sort signals by end_time in descending order to get the latest signal  
+    signals.sort(key=lambda s: s.end_time, reverse=True)  
+    latest_signal = signals[0]  
+    return latest_signal 
   
 def main():  
-    # Delete existing state file to reinitialize  
-    if os.path.exists(STATE_FILE):  
-        os.remove(STATE_FILE)  
+    # Do not delete the existing state file  
+    # if os.path.exists(STATE_FILE):  
+    #     os.remove(STATE_FILE)  
     # Load state and data  
     states = load_state()  
     data = load_data()  
@@ -436,7 +513,8 @@ def main():
     # Generate reporting change signals and dump into ReportingChangeSignal.json  
     generate_reporting_change_signals(states, data)  
   
-    print('Monthly data generated and saved.')  
+    print('Monthly data generated and saved.')   
   
 if __name__ == "__main__":  
     main()  
+    object = get_latest_reporting_change_signal("FastGrower1")

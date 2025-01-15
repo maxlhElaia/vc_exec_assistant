@@ -43,7 +43,7 @@ class PressMentionAgent(Agent):
         
         return completion.choices[0].message.content.strip()
     
-    def get_score(self, signal: PressMentionSignal) -> float:
+    def get_relevance_score(self, signal: PressMentionSignal) -> float:
         print("Computing relevance score for signal:", signal.title)
         normalized_engagement = min(signal.engagement_count / 500, 1.0)
         
@@ -75,16 +75,16 @@ class PressMentionAgent(Agent):
     def process_signals(self, signals: list[PressMentionSignal]) -> list[Action]:
         actions = []
         for signal in signals:
-            signal_score = self.get_score(signal)
-            print("Relenvance score for signal:", signal.title, signal_score)
+            signal_score = self.get_relevance_score(signal)
+            print("Relevance score for signal:", signal.title, signal_score)
 
             if signal_score < 0.5:
+                print("Signal is not relevant enough, skipping")
                 continue
 
             output = self.get_completion(signal)
             
             try:
-                # message, score = output.split("- Score:")
                 output = output.replace("- Message:", "").strip()
             except ValueError:
                 output = "An important mention was detected, but the message couldn't be generated."
@@ -96,5 +96,18 @@ class PressMentionAgent(Agent):
                 url=signal.url_link,
                 score=signal_score,
             )
+
+            # Generate 3 types of actions (email, comment, repost)
+            # 1. Email the company with the message
+            action1 = EmailAction(
+                signal=signal,
+                title=f"Press Mention: {signal.title}",
+                description=output,
+                url=signal.url_link,
+                score=signal_score,
+            )
+            # 2. Comment on the post with the message
+            # 3. Repost the post with the message
+
             actions.append(action)            
         return actions

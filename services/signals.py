@@ -1,12 +1,9 @@
-from dataclasses import dataclass
 import datetime
 import json
 import typing
-from domain.models import Company, HeadcountChangeSignal, PressMentionSignal, Signal
+from domain.models import Company, FollowerCountChangeSignal, HeadcountChangeSignal, PressMentionSignal, Signal
 
-import psycopg2
 from domain.models import Company, HeadcountChangeSignal, Signal
-from services.companies import generate_companies
 
 # class Company(BaseModel):
 #     model_config = ConfigDict(from_attributes=True)
@@ -20,6 +17,8 @@ from services.companies import generate_companies
 #     primary_contact: Contact|None
 
 def generate_signals(companies: list[Company]) -> typing.Iterable[Signal]:
+    yield from generate_linkedin_from_file()
+
     for i in range(1):
         company = Company(
             name=f'company {i}',
@@ -62,3 +61,19 @@ def generate_signals(companies: list[Company]) -> typing.Iterable[Signal]:
         )
 
         yield signal
+
+def generate_linkedin_from_file():
+    types = {
+        HeadcountChangeSignal: 'headcount',
+        FollowerCountChangeSignal: 'followers',
+    }
+    for type_, filename in types.items():
+        with open(f'.data/signals/linkedin/{filename}.json', 'r') as fp:
+            singals_raw = json.load(fp)
+            for signal_raw in singals_raw:
+                yield type_.model_validate(signal_raw)
+
+if __name__ == '__main__':
+    signals = generate_signals([])
+    for signal in signals:
+        print(signal)
