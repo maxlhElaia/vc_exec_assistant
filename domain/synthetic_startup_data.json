@@ -1,0 +1,5902 @@
+{
+    "FastGrower1": [
+        {
+            "date": "2019-01",
+            "revenues": 9701.45,
+            "cash_eop": 128938.57,
+            "ebitda": 787.57,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 34,
+            "arr": 116417.43
+        },
+        {
+            "date": "2019-01",
+            "revenues": 10702.29,
+            "cash_eop": 130456.61,
+            "ebitda": 1518.03,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 37,
+            "arr": 128427.49
+        },
+        {
+            "date": "2019-03",
+            "revenues": 11648.76,
+            "cash_eop": 128817.48,
+            "ebitda": -1639.12,
+            "runway_months": 78.59,
+            "staff": 6,
+            "clients": 40,
+            "arr": 139785.15
+        },
+        {
+            "date": "2019-04",
+            "revenues": 13026.04,
+            "cash_eop": 127480.47,
+            "ebitda": -1337.01,
+            "runway_months": 95.35,
+            "staff": 6,
+            "clients": 44,
+            "arr": 156312.44
+        },
+        {
+            "date": "2019-05",
+            "revenues": 13849.89,
+            "cash_eop": 124778.71,
+            "ebitda": -2701.76,
+            "runway_months": 46.18,
+            "staff": 6,
+            "clients": 46,
+            "arr": 166198.7
+        },
+        {
+            "date": "2019-05",
+            "revenues": 15619.31,
+            "cash_eop": 122280.66,
+            "ebitda": -2498.05,
+            "runway_months": 48.95,
+            "staff": 6,
+            "clients": 51,
+            "arr": 187431.77
+        },
+        {
+            "date": "2019-06",
+            "revenues": 16959.63,
+            "cash_eop": 121776.05,
+            "ebitda": -504.61,
+            "runway_months": 241.33,
+            "staff": 6,
+            "clients": 55,
+            "arr": 203515.54
+        },
+        {
+            "date": "2019-07",
+            "revenues": 19297.26,
+            "cash_eop": 119791.29,
+            "ebitda": -1984.76,
+            "runway_months": 60.36,
+            "staff": 6,
+            "clients": 62,
+            "arr": 231567.12
+        },
+        {
+            "date": "2019-08",
+            "revenues": 20962.46,
+            "cash_eop": 115925.47,
+            "ebitda": -3865.82,
+            "runway_months": 29.99,
+            "staff": 6,
+            "clients": 67,
+            "arr": 251549.48
+        },
+        {
+            "date": "2019-09",
+            "revenues": 22260.02,
+            "cash_eop": 114255.51,
+            "ebitda": -1669.97,
+            "runway_months": 68.42,
+            "staff": 6,
+            "clients": 71,
+            "arr": 267120.29
+        },
+        {
+            "date": "2019-10",
+            "revenues": 23960.76,
+            "cash_eop": 112090.14,
+            "ebitda": -2165.37,
+            "runway_months": 51.76,
+            "staff": 6,
+            "clients": 76,
+            "arr": 287529.16
+        },
+        {
+            "date": "2019-11",
+            "revenues": 25866.99,
+            "cash_eop": 107999.54,
+            "ebitda": -4090.6,
+            "runway_months": 26.4,
+            "staff": 6,
+            "clients": 82,
+            "arr": 310403.83
+        },
+        {
+            "date": "2019-12",
+            "revenues": 29101.24,
+            "cash_eop": 111904.25,
+            "ebitda": 3904.71,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 92,
+            "arr": 349214.88
+        },
+        {
+            "date": "2020-01",
+            "revenues": 33189.2,
+            "cash_eop": 110684.67,
+            "ebitda": -1219.59,
+            "runway_months": 90.76,
+            "staff": 6,
+            "clients": 104,
+            "arr": 398270.45
+        },
+        {
+            "date": "2020-02",
+            "revenues": 37708.87,
+            "cash_eop": 110167.35,
+            "ebitda": -517.32,
+            "runway_months": 212.96,
+            "staff": 6,
+            "clients": 118,
+            "arr": 452506.4
+        },
+        {
+            "date": "2020-03",
+            "revenues": 43324.12,
+            "cash_eop": 107103.56,
+            "ebitda": -3063.79,
+            "runway_months": 34.96,
+            "staff": 6,
+            "clients": 135,
+            "arr": 519889.48
+        },
+        {
+            "date": "2020-04",
+            "revenues": 47453.05,
+            "cash_eop": 101477.03,
+            "ebitda": -5626.53,
+            "runway_months": 18.04,
+            "staff": 6,
+            "clients": 147,
+            "arr": 569436.65
+        },
+        {
+            "date": "2020-05",
+            "revenues": 52103.12,
+            "cash_eop": 110820.49,
+            "ebitda": 9343.46,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 161,
+            "arr": 625237.5
+        },
+        {
+            "date": "2020-06",
+            "revenues": 55027.13,
+            "cash_eop": 102904.82,
+            "ebitda": -7915.67,
+            "runway_months": 13.0,
+            "staff": 6,
+            "clients": 170,
+            "arr": 660325.53
+        },
+        {
+            "date": "2020-07",
+            "revenues": 59550.76,
+            "cash_eop": 102964.99,
+            "ebitda": 60.17,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 183,
+            "arr": 714609.09
+        },
+        {
+            "date": "2020-08",
+            "revenues": 65329.21,
+            "cash_eop": 105859.16,
+            "ebitda": 2894.17,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 200,
+            "arr": 783950.48
+        },
+        {
+            "date": "2020-09",
+            "revenues": 70194.04,
+            "cash_eop": 105958.34,
+            "ebitda": 99.17,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 214,
+            "arr": 842328.42
+        },
+        {
+            "date": "2020-10",
+            "revenues": 79680.38,
+            "cash_eop": 108890.09,
+            "ebitda": 2931.76,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 242,
+            "arr": 956164.54
+        },
+        {
+            "date": "2020-11",
+            "revenues": 87725.44,
+            "cash_eop": 96921.49,
+            "ebitda": -11968.6,
+            "runway_months": 8.1,
+            "staff": 6,
+            "clients": 266,
+            "arr": 1052705.31
+        },
+        {
+            "date": "2020-12",
+            "revenues": 99889.11,
+            "cash_eop": 116471.12,
+            "ebitda": 19549.62,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 302,
+            "arr": 1198669.3
+        },
+        {
+            "date": "2021-01",
+            "revenues": 112005.21,
+            "cash_eop": 120089.81,
+            "ebitda": 3618.7,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 338,
+            "arr": 1344062.51
+        },
+        {
+            "date": "2021-02",
+            "revenues": 122865.52,
+            "cash_eop": 124178.18,
+            "ebitda": 4088.37,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 370,
+            "arr": 1474386.24
+        },
+        {
+            "date": "2021-03",
+            "revenues": 136543.97,
+            "cash_eop": 107003.48,
+            "ebitda": -17174.7,
+            "runway_months": 6.23,
+            "staff": 6,
+            "clients": 411,
+            "arr": 1638527.61
+        },
+        {
+            "date": "2021-04",
+            "revenues": 156001.57,
+            "cash_eop": 94741.97,
+            "ebitda": -12261.51,
+            "runway_months": 7.73,
+            "staff": 6,
+            "clients": 469,
+            "arr": 1872018.83
+        },
+        {
+            "date": "2021-05",
+            "revenues": 166922.75,
+            "cash_eop": 91650.96,
+            "ebitda": -3091.01,
+            "runway_months": 29.65,
+            "staff": 6,
+            "clients": 501,
+            "arr": 2003073.02
+        },
+        {
+            "date": "2021-06",
+            "revenues": 175671.37,
+            "cash_eop": 114347.96,
+            "ebitda": 22697.01,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 527,
+            "arr": 2108056.43
+        },
+        {
+            "date": "2021-07",
+            "revenues": 193016.72,
+            "cash_eop": 95642.37,
+            "ebitda": -18705.6,
+            "runway_months": 5.11,
+            "staff": 6,
+            "clients": 579,
+            "arr": 2316200.59
+        },
+        {
+            "date": "2021-08",
+            "revenues": 209007.25,
+            "cash_eop": 81708.38,
+            "ebitda": -13933.99,
+            "runway_months": 5.86,
+            "staff": 6,
+            "clients": 626,
+            "arr": 2508087.03
+        },
+        {
+            "date": "2021-09",
+            "revenues": 233530.34,
+            "cash_eop": 126630.29,
+            "ebitda": 44921.92,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 699,
+            "arr": 2802364.1
+        },
+        {
+            "date": "2021-10",
+            "revenues": 248001.75,
+            "cash_eop": 164909.38,
+            "ebitda": 38279.08,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 742,
+            "arr": 2976021.03
+        },
+        {
+            "date": "2021-11",
+            "revenues": 268272.89,
+            "cash_eop": 115602.22,
+            "ebitda": -49307.15,
+            "runway_months": 2.34,
+            "staff": 6,
+            "clients": 802,
+            "arr": 3219274.64
+        },
+        {
+            "date": "2021-12",
+            "revenues": 285991.85,
+            "cash_eop": 95127.14,
+            "ebitda": -20475.08,
+            "runway_months": 4.65,
+            "staff": 6,
+            "clients": 854,
+            "arr": 3431902.24
+        },
+        {
+            "date": "2022-01",
+            "revenues": 309080.48,
+            "cash_eop": 125042.59,
+            "ebitda": 29915.45,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 922,
+            "arr": 3708965.77
+        },
+        {
+            "date": "2022-02",
+            "revenues": 351381.13,
+            "cash_eop": 82392.1,
+            "ebitda": -42650.49,
+            "runway_months": 1.93,
+            "staff": 6,
+            "clients": 1048,
+            "arr": 4216573.52
+        },
+        {
+            "date": "2022-03",
+            "revenues": 379526.62,
+            "cash_eop": 148613.42,
+            "ebitda": 66221.32,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 1131,
+            "arr": 4554319.43
+        },
+        {
+            "date": "2022-04",
+            "revenues": 421622.23,
+            "cash_eop": 214183.55,
+            "ebitda": 65570.12,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 1256,
+            "arr": 5059466.8
+        },
+        {
+            "date": "2022-05",
+            "revenues": 456328.06,
+            "cash_eop": 185458.19,
+            "ebitda": -28725.35,
+            "runway_months": 6.46,
+            "staff": 6,
+            "clients": 1359,
+            "arr": 5475936.76
+        },
+        {
+            "date": "2022-06",
+            "revenues": 480593.56,
+            "cash_eop": 178971.88,
+            "ebitda": -6486.31,
+            "runway_months": 27.59,
+            "staff": 6,
+            "clients": 1431,
+            "arr": 5767122.67
+        },
+        {
+            "date": "2022-07",
+            "revenues": 540503.16,
+            "cash_eop": 235431.82,
+            "ebitda": 56459.94,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 1609,
+            "arr": 6486037.91
+        },
+        {
+            "date": "2022-08",
+            "revenues": 570833.56,
+            "cash_eop": 272962.69,
+            "ebitda": 37530.87,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 1699,
+            "arr": 6850002.77
+        },
+        {
+            "date": "2022-09",
+            "revenues": 643462.29,
+            "cash_eop": 289015.77,
+            "ebitda": 16053.08,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 1915,
+            "arr": 7721547.48
+        },
+        {
+            "date": "2022-10",
+            "revenues": 713450.69,
+            "cash_eop": 319208.74,
+            "ebitda": 30192.97,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 2123,
+            "arr": 8561408.29
+        },
+        {
+            "date": "2022-11",
+            "revenues": 804298.82,
+            "cash_eop": 319360.87,
+            "ebitda": 152.13,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 2393,
+            "arr": 9651585.88
+        },
+        {
+            "date": "2022-12",
+            "revenues": 893717.31,
+            "cash_eop": 394860.36,
+            "ebitda": 75499.49,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 2659,
+            "arr": 10724607.7
+        },
+        {
+            "date": "2023-01",
+            "revenues": 942857.09,
+            "cash_eop": 313858.17,
+            "ebitda": -81002.2,
+            "runway_months": 3.87,
+            "staff": 6,
+            "clients": 2805,
+            "arr": 11314285.11
+        },
+        {
+            "date": "2023-02",
+            "revenues": 1044714.83,
+            "cash_eop": 449793.18,
+            "ebitda": 135935.01,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 3108,
+            "arr": 12536578.0
+        },
+        {
+            "date": "2023-03",
+            "revenues": 1099788.93,
+            "cash_eop": 471013.53,
+            "ebitda": 21220.34,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 3271,
+            "arr": 13197467.11
+        },
+        {
+            "date": "2023-04",
+            "revenues": 1247673.25,
+            "cash_eop": 273441.41,
+            "ebitda": -197572.12,
+            "runway_months": 1.38,
+            "staff": 6,
+            "clients": 3710,
+            "arr": 14972078.95
+        },
+        {
+            "date": "2023-05",
+            "revenues": 1359479.9,
+            "cash_eop": 403856.43,
+            "ebitda": 130415.02,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 4042,
+            "arr": 16313758.77
+        },
+        {
+            "date": "2023-06",
+            "revenues": 1533860.34,
+            "cash_eop": 209623.75,
+            "ebitda": -194232.68,
+            "runway_months": 1.08,
+            "staff": 6,
+            "clients": 4560,
+            "arr": 18406324.05
+        },
+        {
+            "date": "2023-07",
+            "revenues": 1719138.13,
+            "cash_eop": 354871.02,
+            "ebitda": 145247.27,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 5110,
+            "arr": 20629657.59
+        },
+        {
+            "date": "2023-08",
+            "revenues": 1841063.23,
+            "cash_eop": 552041.64,
+            "ebitda": 197170.63,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 5472,
+            "arr": 22092758.73
+        },
+        {
+            "date": "2023-09",
+            "revenues": 1974425.11,
+            "cash_eop": 722284.49,
+            "ebitda": 170242.84,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 5868,
+            "arr": 23693101.37
+        },
+        {
+            "date": "2023-10",
+            "revenues": 2138596.04,
+            "cash_eop": 780831.42,
+            "ebitda": 58546.93,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 6355,
+            "arr": 25663152.44
+        },
+        {
+            "date": "2023-11",
+            "revenues": 2375968.91,
+            "cash_eop": 444829.6,
+            "ebitda": -336001.82,
+            "runway_months": 1.32,
+            "staff": 6,
+            "clients": 7060,
+            "arr": 28511626.96
+        }
+    ],
+    "FastGrower2": [
+        {
+            "date": "2019-01",
+            "revenues": 9274.67,
+            "cash_eop": 58950.61,
+            "ebitda": 1001.99,
+            "runway_months": "infinite",
+            "staff": 21,
+            "clients": 45,
+            "arr": 111296.04
+        },
+        {
+            "date": "2019-01",
+            "revenues": 10091.97,
+            "cash_eop": 60155.83,
+            "ebitda": 1205.21,
+            "runway_months": "infinite",
+            "staff": 22,
+            "clients": 48,
+            "arr": 121103.59
+        },
+        {
+            "date": "2019-03",
+            "revenues": 11087.68,
+            "cash_eop": 61513.81,
+            "ebitda": 1357.98,
+            "runway_months": "infinite",
+            "staff": 24,
+            "clients": 52,
+            "arr": 133052.11
+        },
+        {
+            "date": "2019-04",
+            "revenues": 12556.83,
+            "cash_eop": 63759.11,
+            "ebitda": 2245.3,
+            "runway_months": "infinite",
+            "staff": 27,
+            "clients": 58,
+            "arr": 150681.93
+        },
+        {
+            "date": "2019-05",
+            "revenues": 14190.78,
+            "cash_eop": 63318.6,
+            "ebitda": -440.5,
+            "runway_months": 143.74,
+            "staff": 30,
+            "clients": 65,
+            "arr": 170289.35
+        },
+        {
+            "date": "2019-05",
+            "revenues": 15652.49,
+            "cash_eop": 64145.32,
+            "ebitda": 826.72,
+            "runway_months": "infinite",
+            "staff": 33,
+            "clients": 71,
+            "arr": 187829.91
+        },
+        {
+            "date": "2019-06",
+            "revenues": 17993.44,
+            "cash_eop": 63565.43,
+            "ebitda": -579.9,
+            "runway_months": 109.62,
+            "staff": 37,
+            "clients": 81,
+            "arr": 215921.27
+        },
+        {
+            "date": "2019-07",
+            "revenues": 18925.35,
+            "cash_eop": 59844.61,
+            "ebitda": -3720.82,
+            "runway_months": 16.08,
+            "staff": 38,
+            "clients": 85,
+            "arr": 227104.18
+        },
+        {
+            "date": "2019-08",
+            "revenues": 20807.73,
+            "cash_eop": 60741.27,
+            "ebitda": 896.65,
+            "runway_months": "infinite",
+            "staff": 41,
+            "clients": 93,
+            "arr": 249692.74
+        },
+        {
+            "date": "2019-09",
+            "revenues": 23741.77,
+            "cash_eop": 59272.15,
+            "ebitda": -1469.11,
+            "runway_months": 40.35,
+            "staff": 46,
+            "clients": 106,
+            "arr": 284901.19
+        },
+        {
+            "date": "2019-10",
+            "revenues": 26806.67,
+            "cash_eop": 63864.78,
+            "ebitda": 4592.63,
+            "runway_months": "infinite",
+            "staff": 51,
+            "clients": 119,
+            "arr": 321680.03
+        },
+        {
+            "date": "2019-11",
+            "revenues": 29749.72,
+            "cash_eop": 67149.26,
+            "ebitda": 3284.48,
+            "runway_months": "infinite",
+            "staff": 56,
+            "clients": 132,
+            "arr": 356996.66
+        },
+        {
+            "date": "2019-12",
+            "revenues": 32823.13,
+            "cash_eop": 62489.69,
+            "ebitda": -4659.57,
+            "runway_months": 13.41,
+            "staff": 61,
+            "clients": 145,
+            "arr": 393877.57
+        },
+        {
+            "date": "2020-01",
+            "revenues": 34935.01,
+            "cash_eop": 61099.73,
+            "ebitda": -1389.96,
+            "runway_months": 43.96,
+            "staff": 64,
+            "clients": 154,
+            "arr": 419220.16
+        },
+        {
+            "date": "2020-02",
+            "revenues": 39580.93,
+            "cash_eop": 53508.08,
+            "ebitda": -7591.64,
+            "runway_months": 7.05,
+            "staff": 72,
+            "clients": 174,
+            "arr": 474971.18
+        },
+        {
+            "date": "2020-03",
+            "revenues": 45343.05,
+            "cash_eop": 45178.97,
+            "ebitda": -8329.12,
+            "runway_months": 5.42,
+            "staff": 82,
+            "clients": 199,
+            "arr": 544116.56
+        },
+        {
+            "date": "2020-04",
+            "revenues": 50127.77,
+            "cash_eop": 37960.1,
+            "ebitda": -7218.87,
+            "runway_months": 5.26,
+            "staff": 90,
+            "clients": 219,
+            "arr": 601533.28
+        },
+        {
+            "date": "2020-05",
+            "revenues": 56960.05,
+            "cash_eop": 47746.94,
+            "ebitda": 9786.84,
+            "runway_months": "infinite",
+            "staff": 102,
+            "clients": 248,
+            "arr": 683520.58
+        },
+        {
+            "date": "2020-06",
+            "revenues": 64010.25,
+            "cash_eop": 51258.71,
+            "ebitda": 3511.77,
+            "runway_months": "infinite",
+            "staff": 114,
+            "clients": 278,
+            "arr": 768123.03
+        },
+        {
+            "date": "2020-07",
+            "revenues": 70070.35,
+            "cash_eop": 60567.98,
+            "ebitda": 9309.26,
+            "runway_months": "infinite",
+            "staff": 124,
+            "clients": 304,
+            "arr": 840844.19
+        },
+        {
+            "date": "2020-08",
+            "revenues": 75531.98,
+            "cash_eop": 75445.64,
+            "ebitda": 14877.66,
+            "runway_months": "infinite",
+            "staff": 133,
+            "clients": 327,
+            "arr": 906383.78
+        },
+        {
+            "date": "2020-09",
+            "revenues": 80024.64,
+            "cash_eop": 78097.76,
+            "ebitda": 2652.13,
+            "runway_months": "infinite",
+            "staff": 140,
+            "clients": 346,
+            "arr": 960295.67
+        },
+        {
+            "date": "2020-10",
+            "revenues": 88747.44,
+            "cash_eop": 92941.63,
+            "ebitda": 14843.87,
+            "runway_months": "infinite",
+            "staff": 155,
+            "clients": 383,
+            "arr": 1064969.3
+        },
+        {
+            "date": "2020-11",
+            "revenues": 96552.74,
+            "cash_eop": 92687.47,
+            "ebitda": -254.16,
+            "runway_months": 364.68,
+            "staff": 168,
+            "clients": 416,
+            "arr": 1158632.92
+        },
+        {
+            "date": "2020-12",
+            "revenues": 110794.88,
+            "cash_eop": 106391.03,
+            "ebitda": 13703.56,
+            "runway_months": "infinite",
+            "staff": 192,
+            "clients": 477,
+            "arr": 1329538.58
+        },
+        {
+            "date": "2021-01",
+            "revenues": 121552.53,
+            "cash_eop": 118732.08,
+            "ebitda": 12341.04,
+            "runway_months": "infinite",
+            "staff": 210,
+            "clients": 523,
+            "arr": 1458630.31
+        },
+        {
+            "date": "2021-02",
+            "revenues": 131360.37,
+            "cash_eop": 132207.2,
+            "ebitda": 13475.13,
+            "runway_months": "infinite",
+            "staff": 226,
+            "clients": 565,
+            "arr": 1576324.46
+        },
+        {
+            "date": "2021-03",
+            "revenues": 150372.96,
+            "cash_eop": 131472.03,
+            "ebitda": -735.18,
+            "runway_months": 178.83,
+            "staff": 258,
+            "clients": 646,
+            "arr": 1804475.55
+        },
+        {
+            "date": "2021-04",
+            "revenues": 158303.25,
+            "cash_eop": 120963.51,
+            "ebitda": -10508.52,
+            "runway_months": 11.51,
+            "staff": 271,
+            "clients": 680,
+            "arr": 1899639.01
+        },
+        {
+            "date": "2021-05",
+            "revenues": 179696.19,
+            "cash_eop": 109274.89,
+            "ebitda": -11688.62,
+            "runway_months": 9.35,
+            "staff": 307,
+            "clients": 771,
+            "arr": 2156354.28
+        },
+        {
+            "date": "2021-06",
+            "revenues": 193972.67,
+            "cash_eop": 131433.87,
+            "ebitda": 22158.98,
+            "runway_months": "infinite",
+            "staff": 331,
+            "clients": 832,
+            "arr": 2327672.09
+        },
+        {
+            "date": "2021-07",
+            "revenues": 204219.53,
+            "cash_eop": 118922.74,
+            "ebitda": -12511.13,
+            "runway_months": 9.51,
+            "staff": 348,
+            "clients": 875,
+            "arr": 2450634.4
+        },
+        {
+            "date": "2021-08",
+            "revenues": 226954.99,
+            "cash_eop": 155753.66,
+            "ebitda": 36830.91,
+            "runway_months": "infinite",
+            "staff": 386,
+            "clients": 972,
+            "arr": 2723459.89
+        },
+        {
+            "date": "2021-09",
+            "revenues": 255616.52,
+            "cash_eop": 153634.11,
+            "ebitda": -2119.55,
+            "runway_months": 72.48,
+            "staff": 434,
+            "clients": 1094,
+            "arr": 3067398.28
+        },
+        {
+            "date": "2021-10",
+            "revenues": 285937.07,
+            "cash_eop": 146428.84,
+            "ebitda": -7205.26,
+            "runway_months": 20.32,
+            "staff": 485,
+            "clients": 1223,
+            "arr": 3431244.82
+        },
+        {
+            "date": "2021-11",
+            "revenues": 313761.35,
+            "cash_eop": 178028.45,
+            "ebitda": 31599.6,
+            "runway_months": "infinite",
+            "staff": 532,
+            "clients": 1342,
+            "arr": 3765136.22
+        },
+        {
+            "date": "2021-12",
+            "revenues": 345167.68,
+            "cash_eop": 231380.28,
+            "ebitda": 53351.83,
+            "runway_months": "infinite",
+            "staff": 585,
+            "clients": 1476,
+            "arr": 4142012.19
+        },
+        {
+            "date": "2022-01",
+            "revenues": 372705.38,
+            "cash_eop": 199999.33,
+            "ebitda": -31380.95,
+            "runway_months": 6.37,
+            "staff": 631,
+            "clients": 1593,
+            "arr": 4472464.55
+        },
+        {
+            "date": "2022-02",
+            "revenues": 396168.84,
+            "cash_eop": 177513.33,
+            "ebitda": -22486.0,
+            "runway_months": 7.89,
+            "staff": 670,
+            "clients": 1693,
+            "arr": 4754026.09
+        },
+        {
+            "date": "2022-03",
+            "revenues": 424114.18,
+            "cash_eop": 118359.74,
+            "ebitda": -59153.59,
+            "runway_months": 2.0,
+            "staff": 717,
+            "clients": 1812,
+            "arr": 5089370.12
+        },
+        {
+            "date": "2022-04",
+            "revenues": 461603.63,
+            "cash_eop": 148088.89,
+            "ebitda": 29729.15,
+            "runway_months": "infinite",
+            "staff": 780,
+            "clients": 1972,
+            "arr": 5539243.58
+        },
+        {
+            "date": "2022-05",
+            "revenues": 509027.63,
+            "cash_eop": 225297.64,
+            "ebitda": 77208.75,
+            "runway_months": "infinite",
+            "staff": 860,
+            "clients": 2174,
+            "arr": 6108331.52
+        },
+        {
+            "date": "2022-06",
+            "revenues": 542105.89,
+            "cash_eop": 209163.26,
+            "ebitda": -16134.38,
+            "runway_months": 12.96,
+            "staff": 915,
+            "clients": 2315,
+            "arr": 6505270.7
+        },
+        {
+            "date": "2022-07",
+            "revenues": 615914.68,
+            "cash_eop": 246874.55,
+            "ebitda": 37711.29,
+            "runway_months": "infinite",
+            "staff": 1039,
+            "clients": 2630,
+            "arr": 7390976.11
+        },
+        {
+            "date": "2022-08",
+            "revenues": 650837.87,
+            "cash_eop": 256576.59,
+            "ebitda": 9702.04,
+            "runway_months": "infinite",
+            "staff": 1097,
+            "clients": 2779,
+            "arr": 7810054.48
+        },
+        {
+            "date": "2022-09",
+            "revenues": 739710.49,
+            "cash_eop": 118240.91,
+            "ebitda": -138335.69,
+            "runway_months": 0.85,
+            "staff": 1246,
+            "clients": 3158,
+            "arr": 8876525.94
+        },
+        {
+            "date": "2022-10",
+            "revenues": 799512.18,
+            "cash_eop": 146670.18,
+            "ebitda": 28429.27,
+            "runway_months": "infinite",
+            "staff": 1346,
+            "clients": 3413,
+            "arr": 9594146.11
+        },
+        {
+            "date": "2022-11",
+            "revenues": 882887.86,
+            "cash_eop": 39686.69,
+            "ebitda": -106983.49,
+            "runway_months": 0.37,
+            "staff": 1486,
+            "clients": 3768,
+            "arr": 10594654.35
+        }
+    ],
+    "UpDown1": [
+        {
+            "date": "2019-01",
+            "revenues": 7088.97,
+            "cash_eop": 165983.87,
+            "ebitda": 802.45,
+            "runway_months": "infinite",
+            "staff": 16,
+            "clients": 31,
+            "arr": 85067.58
+        },
+        {
+            "date": "2019-01",
+            "revenues": 6573.65,
+            "cash_eop": 165512.49,
+            "ebitda": -471.38,
+            "runway_months": 351.13,
+            "staff": 14,
+            "clients": 28,
+            "arr": 78883.77
+        },
+        {
+            "date": "2019-03",
+            "revenues": 6196.14,
+            "cash_eop": 164602.91,
+            "ebitda": -909.58,
+            "runway_months": 180.97,
+            "staff": 13,
+            "clients": 26,
+            "arr": 74353.62
+        },
+        {
+            "date": "2019-04",
+            "revenues": 6552.22,
+            "cash_eop": 164123.81,
+            "ebitda": -479.1,
+            "runway_months": 342.57,
+            "staff": 13,
+            "clients": 27,
+            "arr": 78626.64
+        },
+        {
+            "date": "2019-05",
+            "revenues": 6072.19,
+            "cash_eop": 165185.86,
+            "ebitda": 1062.04,
+            "runway_months": "infinite",
+            "staff": 12,
+            "clients": 25,
+            "arr": 72866.28
+        },
+        {
+            "date": "2019-05",
+            "revenues": 6369.25,
+            "cash_eop": 164671.36,
+            "ebitda": -514.5,
+            "runway_months": 320.06,
+            "staff": 12,
+            "clients": 26,
+            "arr": 76431.01
+        },
+        {
+            "date": "2019-06",
+            "revenues": 6769.08,
+            "cash_eop": 165676.06,
+            "ebitda": 1004.7,
+            "runway_months": "infinite",
+            "staff": 12,
+            "clients": 27,
+            "arr": 81229.01
+        },
+        {
+            "date": "2019-07",
+            "revenues": 6690.64,
+            "cash_eop": 165191.1,
+            "ebitda": -484.95,
+            "runway_months": 340.63,
+            "staff": 11,
+            "clients": 26,
+            "arr": 80287.65
+        },
+        {
+            "date": "2019-08",
+            "revenues": 7148.51,
+            "cash_eop": 165278.59,
+            "ebitda": 87.48,
+            "runway_months": "infinite",
+            "staff": 11,
+            "clients": 27,
+            "arr": 85782.08
+        },
+        {
+            "date": "2019-09",
+            "revenues": 6962.25,
+            "cash_eop": 165793.72,
+            "ebitda": 515.14,
+            "runway_months": "infinite",
+            "staff": 10,
+            "clients": 26,
+            "arr": 83546.94
+        },
+        {
+            "date": "2019-10",
+            "revenues": 7011.75,
+            "cash_eop": 164881.03,
+            "ebitda": -912.69,
+            "runway_months": 180.65,
+            "staff": 10,
+            "clients": 26,
+            "arr": 84140.98
+        },
+        {
+            "date": "2019-11",
+            "revenues": 7502.1,
+            "cash_eop": 165822.43,
+            "ebitda": 941.4,
+            "runway_months": "infinite",
+            "staff": 10,
+            "clients": 27,
+            "arr": 90025.2
+        },
+        {
+            "date": "2019-12",
+            "revenues": 7416.68,
+            "cash_eop": 166845.28,
+            "ebitda": 1022.85,
+            "runway_months": "infinite",
+            "staff": 9,
+            "clients": 26,
+            "arr": 89000.12
+        },
+        {
+            "date": "2020-01",
+            "revenues": 7829.7,
+            "cash_eop": 167392.13,
+            "ebitda": 546.86,
+            "runway_months": "infinite",
+            "staff": 9,
+            "clients": 27,
+            "arr": 93956.38
+        },
+        {
+            "date": "2020-02",
+            "revenues": 7081.95,
+            "cash_eop": 166021.15,
+            "ebitda": -1370.98,
+            "runway_months": 121.1,
+            "staff": 8,
+            "clients": 24,
+            "arr": 84983.42
+        },
+        {
+            "date": "2020-03",
+            "revenues": 6550.46,
+            "cash_eop": 164932.19,
+            "ebitda": -1088.96,
+            "runway_months": 151.46,
+            "staff": 7,
+            "clients": 22,
+            "arr": 78605.49
+        },
+        {
+            "date": "2020-04",
+            "revenues": 6323.11,
+            "cash_eop": 164243.28,
+            "ebitda": -688.92,
+            "runway_months": 238.41,
+            "staff": 6,
+            "clients": 21,
+            "arr": 75877.33
+        },
+        {
+            "date": "2020-05",
+            "revenues": 6072.87,
+            "cash_eop": 163861.76,
+            "ebitda": -381.52,
+            "runway_months": 429.5,
+            "staff": 5,
+            "clients": 20,
+            "arr": 72874.47
+        },
+        {
+            "date": "2020-06",
+            "revenues": 5503.89,
+            "cash_eop": 164459.41,
+            "ebitda": 597.65,
+            "runway_months": "infinite",
+            "staff": 4,
+            "clients": 18,
+            "arr": 66046.68
+        },
+        {
+            "date": "2020-07",
+            "revenues": 5290.3,
+            "cash_eop": 164313.31,
+            "ebitda": -146.1,
+            "runway_months": 1124.65,
+            "staff": 3,
+            "clients": 17,
+            "arr": 63483.58
+        },
+        {
+            "date": "2020-08",
+            "revenues": 5325.76,
+            "cash_eop": 163543.36,
+            "ebitda": -769.95,
+            "runway_months": 212.41,
+            "staff": 3,
+            "clients": 17,
+            "arr": 63909.07
+        },
+        {
+            "date": "2020-09",
+            "revenues": 4808.23,
+            "cash_eop": 162938.31,
+            "ebitda": -605.06,
+            "runway_months": 269.29,
+            "staff": 2,
+            "clients": 15,
+            "arr": 57698.78
+        },
+        {
+            "date": "2020-10",
+            "revenues": 4624.86,
+            "cash_eop": 162528.57,
+            "ebitda": -409.73,
+            "runway_months": 396.67,
+            "staff": 1,
+            "clients": 14,
+            "arr": 55498.27
+        },
+        {
+            "date": "2020-11",
+            "revenues": 4580.83,
+            "cash_eop": 163147.76,
+            "ebitda": 619.18,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 13,
+            "arr": 54970.02
+        },
+        {
+            "date": "2020-12",
+            "revenues": 4494.59,
+            "cash_eop": 163646.05,
+            "ebitda": 498.29,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 12,
+            "arr": 53935.12
+        },
+        {
+            "date": "2021-01",
+            "revenues": 4204.65,
+            "cash_eop": 163399.55,
+            "ebitda": -246.5,
+            "runway_months": 662.89,
+            "staff": 1,
+            "clients": 11,
+            "arr": 50455.77
+        },
+        {
+            "date": "2021-02",
+            "revenues": 4004.11,
+            "cash_eop": 163574.49,
+            "ebitda": 174.94,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 10,
+            "arr": 48049.35
+        },
+        {
+            "date": "2021-03",
+            "revenues": 3967.7,
+            "cash_eop": 162915.76,
+            "ebitda": -658.73,
+            "runway_months": 247.32,
+            "staff": 1,
+            "clients": 9,
+            "arr": 47612.41
+        },
+        {
+            "date": "2021-04",
+            "revenues": 4343.75,
+            "cash_eop": 162533.63,
+            "ebitda": -382.13,
+            "runway_months": 425.33,
+            "staff": 1,
+            "clients": 9,
+            "arr": 52125.06
+        },
+        {
+            "date": "2021-05",
+            "revenues": 4317.67,
+            "cash_eop": 162690.6,
+            "ebitda": 156.97,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 8,
+            "arr": 51812.02
+        },
+        {
+            "date": "2021-06",
+            "revenues": 4181.23,
+            "cash_eop": 163480.29,
+            "ebitda": 789.69,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 7,
+            "arr": 50174.79
+        },
+        {
+            "date": "2021-07",
+            "revenues": 3976.06,
+            "cash_eop": 163889.56,
+            "ebitda": 409.26,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 6,
+            "arr": 47712.78
+        },
+        {
+            "date": "2021-08",
+            "revenues": 3761.41,
+            "cash_eop": 163554.27,
+            "ebitda": -335.29,
+            "runway_months": 487.8,
+            "staff": 1,
+            "clients": 5,
+            "arr": 45136.95
+        },
+        {
+            "date": "2021-09",
+            "revenues": 3636.26,
+            "cash_eop": 163930.28,
+            "ebitda": 376.01,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 4,
+            "arr": 43635.11
+        },
+        {
+            "date": "2021-10",
+            "revenues": 3740.68,
+            "cash_eop": 164567.59,
+            "ebitda": 637.32,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 4,
+            "arr": 44888.11
+        },
+        {
+            "date": "2021-11",
+            "revenues": 3425.31,
+            "cash_eop": 163946.39,
+            "ebitda": -621.2,
+            "runway_months": 263.92,
+            "staff": 1,
+            "clients": 3,
+            "arr": 41103.74
+        },
+        {
+            "date": "2021-12",
+            "revenues": 3273.19,
+            "cash_eop": 164332.07,
+            "ebitda": 385.68,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 2,
+            "arr": 39278.29
+        },
+        {
+            "date": "2022-01",
+            "revenues": 3310.41,
+            "cash_eop": 163726.75,
+            "ebitda": -605.32,
+            "runway_months": 270.48,
+            "staff": 1,
+            "clients": 2,
+            "arr": 39724.94
+        },
+        {
+            "date": "2022-02",
+            "revenues": 2991.26,
+            "cash_eop": 163577.14,
+            "ebitda": -149.61,
+            "runway_months": 1093.34,
+            "staff": 1,
+            "clients": 1,
+            "arr": 35895.17
+        },
+        {
+            "date": "2022-03",
+            "revenues": 3220.73,
+            "cash_eop": 163074.42,
+            "ebitda": -502.72,
+            "runway_months": 324.39,
+            "staff": 1,
+            "clients": 1,
+            "arr": 38648.72
+        },
+        {
+            "date": "2022-04",
+            "revenues": 3468.14,
+            "cash_eop": 163687.86,
+            "ebitda": 613.44,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 1,
+            "arr": 41617.66
+        },
+        {
+            "date": "2022-05",
+            "revenues": 3528.06,
+            "cash_eop": 164251.81,
+            "ebitda": 563.95,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 1,
+            "arr": 42336.67
+        },
+        {
+            "date": "2022-06",
+            "revenues": 3304.76,
+            "cash_eop": 164137.88,
+            "ebitda": -113.93,
+            "runway_months": 1440.66,
+            "staff": 1,
+            "clients": 0,
+            "arr": 39657.12
+        },
+        {
+            "date": "2022-07",
+            "revenues": 3270.89,
+            "cash_eop": 164445.95,
+            "ebitda": 308.07,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 39250.71
+        },
+        {
+            "date": "2022-08",
+            "revenues": 2963.1,
+            "cash_eop": 164962.54,
+            "ebitda": 516.59,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 35557.22
+        },
+        {
+            "date": "2022-09",
+            "revenues": 3182.55,
+            "cash_eop": 165194.88,
+            "ebitda": 232.34,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 38190.6
+        },
+        {
+            "date": "2022-10",
+            "revenues": 3382.44,
+            "cash_eop": 165439.22,
+            "ebitda": 244.34,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 40589.24
+        },
+        {
+            "date": "2022-11",
+            "revenues": 3489.6,
+            "cash_eop": 165478.45,
+            "ebitda": 39.23,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 41875.16
+        },
+        {
+            "date": "2022-12",
+            "revenues": 3255.23,
+            "cash_eop": 165057.44,
+            "ebitda": -421.0,
+            "runway_months": 392.06,
+            "staff": 1,
+            "clients": 0,
+            "arr": 39062.74
+        },
+        {
+            "date": "2023-01",
+            "revenues": 3077.22,
+            "cash_eop": 164851.43,
+            "ebitda": -206.01,
+            "runway_months": 800.2,
+            "staff": 1,
+            "clients": 0,
+            "arr": 36926.59
+        },
+        {
+            "date": "2023-02",
+            "revenues": 3367.27,
+            "cash_eop": 164743.94,
+            "ebitda": -107.49,
+            "runway_months": 1532.67,
+            "staff": 1,
+            "clients": 0,
+            "arr": 40407.29
+        },
+        {
+            "date": "2023-03",
+            "revenues": 3280.81,
+            "cash_eop": 164913.11,
+            "ebitda": 169.17,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 39369.71
+        },
+        {
+            "date": "2023-04",
+            "revenues": 3254.49,
+            "cash_eop": 165198.65,
+            "ebitda": 285.54,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 39053.91
+        },
+        {
+            "date": "2023-05",
+            "revenues": 3089.42,
+            "cash_eop": 165222.64,
+            "ebitda": 23.99,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 37073.02
+        },
+        {
+            "date": "2023-06",
+            "revenues": 3363.33,
+            "cash_eop": 165447.61,
+            "ebitda": 224.97,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 40360.0
+        },
+        {
+            "date": "2023-07",
+            "revenues": 3287.59,
+            "cash_eop": 164795.64,
+            "ebitda": -651.97,
+            "runway_months": 252.77,
+            "staff": 1,
+            "clients": 0,
+            "arr": 39451.09
+        },
+        {
+            "date": "2023-08",
+            "revenues": 3539.78,
+            "cash_eop": 164260.21,
+            "ebitda": -535.43,
+            "runway_months": 306.78,
+            "staff": 1,
+            "clients": 0,
+            "arr": 42477.38
+        },
+        {
+            "date": "2023-09",
+            "revenues": 3371.06,
+            "cash_eop": 164878.64,
+            "ebitda": 618.43,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 40452.69
+        },
+        {
+            "date": "2023-10",
+            "revenues": 3038.46,
+            "cash_eop": 164549.12,
+            "ebitda": -329.52,
+            "runway_months": 499.36,
+            "staff": 1,
+            "clients": 0,
+            "arr": 36461.52
+        },
+        {
+            "date": "2023-11",
+            "revenues": 2890.18,
+            "cash_eop": 164271.88,
+            "ebitda": -277.24,
+            "runway_months": 592.52,
+            "staff": 1,
+            "clients": 0,
+            "arr": 34682.15
+        }
+    ],
+    "UpDown2": [
+        {
+            "date": "2019-01",
+            "revenues": 8869.43,
+            "cash_eop": 91210.32,
+            "ebitda": 50.53,
+            "runway_months": "infinite",
+            "staff": 8,
+            "clients": 46,
+            "arr": 106433.21
+        },
+        {
+            "date": "2019-01",
+            "revenues": 8758.33,
+            "cash_eop": 90695.24,
+            "ebitda": -515.07,
+            "runway_months": 176.08,
+            "staff": 7,
+            "clients": 45,
+            "arr": 105099.98
+        },
+        {
+            "date": "2019-03",
+            "revenues": 8893.39,
+            "cash_eop": 92135.32,
+            "ebitda": 1440.08,
+            "runway_months": "infinite",
+            "staff": 7,
+            "clients": 45,
+            "arr": 106720.65
+        },
+        {
+            "date": "2019-04",
+            "revenues": 8193.49,
+            "cash_eop": 93760.02,
+            "ebitda": 1624.7,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 41,
+            "arr": 98321.93
+        },
+        {
+            "date": "2019-05",
+            "revenues": 7844.52,
+            "cash_eop": 92661.05,
+            "ebitda": -1098.97,
+            "runway_months": 84.32,
+            "staff": 5,
+            "clients": 39,
+            "arr": 94134.25
+        },
+        {
+            "date": "2019-05",
+            "revenues": 8232.63,
+            "cash_eop": 94083.37,
+            "ebitda": 1422.33,
+            "runway_months": "infinite",
+            "staff": 5,
+            "clients": 40,
+            "arr": 98791.59
+        },
+        {
+            "date": "2019-06",
+            "revenues": 8831.24,
+            "cash_eop": 93416.65,
+            "ebitda": -666.72,
+            "runway_months": 140.11,
+            "staff": 5,
+            "clients": 42,
+            "arr": 105974.85
+        },
+        {
+            "date": "2019-07",
+            "revenues": 9568.05,
+            "cash_eop": 92651.62,
+            "ebitda": -765.03,
+            "runway_months": 121.11,
+            "staff": 5,
+            "clients": 45,
+            "arr": 114816.64
+        },
+        {
+            "date": "2019-08",
+            "revenues": 9617.1,
+            "cash_eop": 92525.6,
+            "ebitda": -126.02,
+            "runway_months": 734.2,
+            "staff": 5,
+            "clients": 45,
+            "arr": 115405.26
+        },
+        {
+            "date": "2019-09",
+            "revenues": 10564.18,
+            "cash_eop": 92072.49,
+            "ebitda": -453.11,
+            "runway_months": 203.2,
+            "staff": 5,
+            "clients": 49,
+            "arr": 126770.21
+        },
+        {
+            "date": "2019-10",
+            "revenues": 9899.84,
+            "cash_eop": 91230.19,
+            "ebitda": -842.31,
+            "runway_months": 108.31,
+            "staff": 4,
+            "clients": 45,
+            "arr": 118798.14
+        },
+        {
+            "date": "2019-11",
+            "revenues": 10087.22,
+            "cash_eop": 92879.58,
+            "ebitda": 1649.39,
+            "runway_months": "infinite",
+            "staff": 4,
+            "clients": 45,
+            "arr": 121046.63
+        },
+        {
+            "date": "2019-12",
+            "revenues": 10870.59,
+            "cash_eop": 92407.05,
+            "ebitda": -472.52,
+            "runway_months": 195.56,
+            "staff": 4,
+            "clients": 48,
+            "arr": 130447.1
+        },
+        {
+            "date": "2020-01",
+            "revenues": 10657.91,
+            "cash_eop": 94140.55,
+            "ebitda": 1733.49,
+            "runway_months": "infinite",
+            "staff": 3,
+            "clients": 47,
+            "arr": 127894.87
+        },
+        {
+            "date": "2020-02",
+            "revenues": 10909.35,
+            "cash_eop": 95840.65,
+            "ebitda": 1700.1,
+            "runway_months": "infinite",
+            "staff": 3,
+            "clients": 48,
+            "arr": 130912.18
+        },
+        {
+            "date": "2020-03",
+            "revenues": 11202.47,
+            "cash_eop": 97372.06,
+            "ebitda": 1531.41,
+            "runway_months": "infinite",
+            "staff": 3,
+            "clients": 49,
+            "arr": 134429.59
+        },
+        {
+            "date": "2020-04",
+            "revenues": 11375.57,
+            "cash_eop": 95164.29,
+            "ebitda": -2207.77,
+            "runway_months": 43.1,
+            "staff": 3,
+            "clients": 49,
+            "arr": 136506.81
+        },
+        {
+            "date": "2020-05",
+            "revenues": 11409.12,
+            "cash_eop": 96391.39,
+            "ebitda": 1227.09,
+            "runway_months": "infinite",
+            "staff": 3,
+            "clients": 49,
+            "arr": 136909.39
+        },
+        {
+            "date": "2020-06",
+            "revenues": 12127.0,
+            "cash_eop": 95190.22,
+            "ebitda": -1201.17,
+            "runway_months": 79.25,
+            "staff": 3,
+            "clients": 52,
+            "arr": 145523.99
+        },
+        {
+            "date": "2020-07",
+            "revenues": 11247.41,
+            "cash_eop": 93381.37,
+            "ebitda": -1808.85,
+            "runway_months": 51.62,
+            "staff": 2,
+            "clients": 48,
+            "arr": 134968.91
+        },
+        {
+            "date": "2020-08",
+            "revenues": 11675.28,
+            "cash_eop": 94220.28,
+            "ebitda": 838.91,
+            "runway_months": "infinite",
+            "staff": 2,
+            "clients": 49,
+            "arr": 140103.33
+        },
+        {
+            "date": "2020-09",
+            "revenues": 12376.68,
+            "cash_eop": 92445.91,
+            "ebitda": -1774.37,
+            "runway_months": 52.1,
+            "staff": 2,
+            "clients": 51,
+            "arr": 148520.22
+        },
+        {
+            "date": "2020-10",
+            "revenues": 12730.77,
+            "cash_eop": 92361.59,
+            "ebitda": -84.32,
+            "runway_months": 1095.36,
+            "staff": 2,
+            "clients": 52,
+            "arr": 152769.2
+        },
+        {
+            "date": "2020-11",
+            "revenues": 12354.25,
+            "cash_eop": 90836.03,
+            "ebitda": -1525.55,
+            "runway_months": 59.54,
+            "staff": 1,
+            "clients": 50,
+            "arr": 148250.97
+        },
+        {
+            "date": "2020-12",
+            "revenues": 13558.46,
+            "cash_eop": 90236.68,
+            "ebitda": -599.35,
+            "runway_months": 150.56,
+            "staff": 1,
+            "clients": 54,
+            "arr": 162701.51
+        },
+        {
+            "date": "2021-01",
+            "revenues": 14834.5,
+            "cash_eop": 88010.29,
+            "ebitda": -2226.39,
+            "runway_months": 39.53,
+            "staff": 1,
+            "clients": 59,
+            "arr": 178014.03
+        },
+        {
+            "date": "2021-02",
+            "revenues": 15087.46,
+            "cash_eop": 90498.3,
+            "ebitda": 2488.01,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 60,
+            "arr": 181049.46
+        },
+        {
+            "date": "2021-03",
+            "revenues": 13797.96,
+            "cash_eop": 91110.5,
+            "ebitda": 612.2,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 54,
+            "arr": 165575.55
+        },
+        {
+            "date": "2021-04",
+            "revenues": 14083.36,
+            "cash_eop": 93068.01,
+            "ebitda": 1957.51,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 55,
+            "arr": 169000.32
+        },
+        {
+            "date": "2021-05",
+            "revenues": 14978.92,
+            "cash_eop": 93703.15,
+            "ebitda": 635.14,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 58,
+            "arr": 179747.07
+        },
+        {
+            "date": "2021-06",
+            "revenues": 16223.56,
+            "cash_eop": 95299.71,
+            "ebitda": 1596.55,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 62,
+            "arr": 194682.74
+        },
+        {
+            "date": "2021-07",
+            "revenues": 15841.63,
+            "cash_eop": 95238.73,
+            "ebitda": -60.97,
+            "runway_months": 1561.98,
+            "staff": 1,
+            "clients": 60,
+            "arr": 190099.56
+        },
+        {
+            "date": "2021-08",
+            "revenues": 15516.27,
+            "cash_eop": 92829.15,
+            "ebitda": -2409.58,
+            "runway_months": 38.53,
+            "staff": 1,
+            "clients": 58,
+            "arr": 186195.29
+        },
+        {
+            "date": "2021-09",
+            "revenues": 16078.95,
+            "cash_eop": 91137.86,
+            "ebitda": -1691.29,
+            "runway_months": 53.89,
+            "staff": 1,
+            "clients": 60,
+            "arr": 192947.41
+        },
+        {
+            "date": "2021-10",
+            "revenues": 16147.45,
+            "cash_eop": 90764.24,
+            "ebitda": -373.62,
+            "runway_months": 242.93,
+            "staff": 1,
+            "clients": 60,
+            "arr": 193769.41
+        },
+        {
+            "date": "2021-11",
+            "revenues": 16634.33,
+            "cash_eop": 89816.23,
+            "ebitda": -948.01,
+            "runway_months": 94.74,
+            "staff": 1,
+            "clients": 61,
+            "arr": 199611.93
+        },
+        {
+            "date": "2021-12",
+            "revenues": 15246.08,
+            "cash_eop": 92825.08,
+            "ebitda": 3008.85,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 55,
+            "arr": 182952.97
+        },
+        {
+            "date": "2022-01",
+            "revenues": 16106.31,
+            "cash_eop": 93698.35,
+            "ebitda": 873.27,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 58,
+            "arr": 193275.75
+        },
+        {
+            "date": "2022-02",
+            "revenues": 15926.41,
+            "cash_eop": 93482.72,
+            "ebitda": -215.63,
+            "runway_months": 433.54,
+            "staff": 1,
+            "clients": 57,
+            "arr": 191116.95
+        },
+        {
+            "date": "2022-03",
+            "revenues": 17494.85,
+            "cash_eop": 96555.34,
+            "ebitda": 3072.62,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 62,
+            "arr": 209938.16
+        },
+        {
+            "date": "2022-04",
+            "revenues": 16008.5,
+            "cash_eop": 94513.28,
+            "ebitda": -2042.06,
+            "runway_months": 46.28,
+            "staff": 1,
+            "clients": 56,
+            "arr": 192101.96
+        },
+        {
+            "date": "2022-05",
+            "revenues": 14798.79,
+            "cash_eop": 94772.26,
+            "ebitda": 258.98,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 51,
+            "arr": 177585.42
+        },
+        {
+            "date": "2022-06",
+            "revenues": 14604.09,
+            "cash_eop": 92839.03,
+            "ebitda": -1933.23,
+            "runway_months": 48.02,
+            "staff": 1,
+            "clients": 50,
+            "arr": 175249.06
+        },
+        {
+            "date": "2022-07",
+            "revenues": 13156.74,
+            "cash_eop": 95215.89,
+            "ebitda": 2376.85,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 45,
+            "arr": 157880.83
+        },
+        {
+            "date": "2022-08",
+            "revenues": 13145.06,
+            "cash_eop": 92931.63,
+            "ebitda": -2284.25,
+            "runway_months": 40.68,
+            "staff": 1,
+            "clients": 44,
+            "arr": 157740.69
+        },
+        {
+            "date": "2022-09",
+            "revenues": 12633.45,
+            "cash_eop": 93419.82,
+            "ebitda": 488.19,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 42,
+            "arr": 151601.43
+        },
+        {
+            "date": "2022-10",
+            "revenues": 13649.85,
+            "cash_eop": 94008.65,
+            "ebitda": 588.82,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 45,
+            "arr": 163798.26
+        },
+        {
+            "date": "2022-11",
+            "revenues": 13989.56,
+            "cash_eop": 96509.2,
+            "ebitda": 2500.55,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 46,
+            "arr": 167874.76
+        },
+        {
+            "date": "2022-12",
+            "revenues": 14994.99,
+            "cash_eop": 94649.72,
+            "ebitda": -1859.47,
+            "runway_months": 50.9,
+            "staff": 1,
+            "clients": 49,
+            "arr": 179939.84
+        },
+        {
+            "date": "2023-01",
+            "revenues": 15805.63,
+            "cash_eop": 97342.88,
+            "ebitda": 2693.15,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 51,
+            "arr": 189667.53
+        },
+        {
+            "date": "2023-02",
+            "revenues": 16567.77,
+            "cash_eop": 99409.28,
+            "ebitda": 2066.4,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 53,
+            "arr": 198813.22
+        },
+        {
+            "date": "2023-03",
+            "revenues": 17139.28,
+            "cash_eop": 100522.92,
+            "ebitda": 1113.64,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 54,
+            "arr": 205671.37
+        },
+        {
+            "date": "2023-04",
+            "revenues": 16097.76,
+            "cash_eop": 102000.93,
+            "ebitda": 1478.01,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 50,
+            "arr": 193173.09
+        },
+        {
+            "date": "2023-05",
+            "revenues": 16362.08,
+            "cash_eop": 104709.79,
+            "ebitda": 2708.85,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 50,
+            "arr": 196344.98
+        },
+        {
+            "date": "2023-06",
+            "revenues": 15418.17,
+            "cash_eop": 106517.61,
+            "ebitda": 1807.82,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 47,
+            "arr": 185018.03
+        },
+        {
+            "date": "2023-07",
+            "revenues": 14986.5,
+            "cash_eop": 103878.76,
+            "ebitda": -2638.84,
+            "runway_months": 39.37,
+            "staff": 1,
+            "clients": 45,
+            "arr": 179837.98
+        },
+        {
+            "date": "2023-08",
+            "revenues": 13941.25,
+            "cash_eop": 102341.47,
+            "ebitda": -1537.29,
+            "runway_months": 66.57,
+            "staff": 1,
+            "clients": 41,
+            "arr": 167295.05
+        },
+        {
+            "date": "2023-09",
+            "revenues": 13319.17,
+            "cash_eop": 102065.53,
+            "ebitda": -275.94,
+            "runway_months": 369.88,
+            "staff": 1,
+            "clients": 39,
+            "arr": 159830.04
+        },
+        {
+            "date": "2023-10",
+            "revenues": 12680.62,
+            "cash_eop": 99564.45,
+            "ebitda": -2501.08,
+            "runway_months": 39.81,
+            "staff": 1,
+            "clients": 37,
+            "arr": 152167.45
+        },
+        {
+            "date": "2023-11",
+            "revenues": 11447.26,
+            "cash_eop": 100199.25,
+            "ebitda": 634.8,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 33,
+            "arr": 137367.09
+        }
+    ],
+    "UpDown3": [
+        {
+            "date": "2019-01",
+            "revenues": 6349.68,
+            "cash_eop": 89643.12,
+            "ebitda": -960.41,
+            "runway_months": 93.34,
+            "staff": 9,
+            "clients": 30,
+            "arr": 76196.21
+        },
+        {
+            "date": "2019-01",
+            "revenues": 6623.11,
+            "cash_eop": 89699.49,
+            "ebitda": 56.37,
+            "runway_months": "infinite",
+            "staff": 9,
+            "clients": 31,
+            "arr": 79477.27
+        },
+        {
+            "date": "2019-03",
+            "revenues": 6646.7,
+            "cash_eop": 88860.71,
+            "ebitda": -838.78,
+            "runway_months": 105.94,
+            "staff": 9,
+            "clients": 31,
+            "arr": 79760.36
+        },
+        {
+            "date": "2019-04",
+            "revenues": 7029.56,
+            "cash_eop": 88133.27,
+            "ebitda": -727.44,
+            "runway_months": 121.16,
+            "staff": 9,
+            "clients": 32,
+            "arr": 84354.69
+        },
+        {
+            "date": "2019-05",
+            "revenues": 7116.71,
+            "cash_eop": 86729.02,
+            "ebitda": -1404.25,
+            "runway_months": 61.76,
+            "staff": 9,
+            "clients": 32,
+            "arr": 85400.51
+        },
+        {
+            "date": "2019-05",
+            "revenues": 6690.76,
+            "cash_eop": 87413.72,
+            "ebitda": 684.7,
+            "runway_months": "infinite",
+            "staff": 8,
+            "clients": 30,
+            "arr": 80289.17
+        },
+        {
+            "date": "2019-06",
+            "revenues": 7019.65,
+            "cash_eop": 87053.09,
+            "ebitda": -360.63,
+            "runway_months": 241.39,
+            "staff": 8,
+            "clients": 31,
+            "arr": 84235.83
+        },
+        {
+            "date": "2019-07",
+            "revenues": 7714.13,
+            "cash_eop": 85819.21,
+            "ebitda": -1233.88,
+            "runway_months": 69.55,
+            "staff": 8,
+            "clients": 34,
+            "arr": 92569.51
+        },
+        {
+            "date": "2019-08",
+            "revenues": 7312.25,
+            "cash_eop": 87095.03,
+            "ebitda": 1275.82,
+            "runway_months": "infinite",
+            "staff": 7,
+            "clients": 32,
+            "arr": 87747.04
+        },
+        {
+            "date": "2019-09",
+            "revenues": 7761.1,
+            "cash_eop": 87938.84,
+            "ebitda": 843.8,
+            "runway_months": "infinite",
+            "staff": 7,
+            "clients": 33,
+            "arr": 93133.16
+        },
+        {
+            "date": "2019-10",
+            "revenues": 8337.59,
+            "cash_eop": 86396.43,
+            "ebitda": -1542.41,
+            "runway_months": 56.01,
+            "staff": 7,
+            "clients": 35,
+            "arr": 100051.08
+        },
+        {
+            "date": "2019-11",
+            "revenues": 7686.17,
+            "cash_eop": 87818.1,
+            "ebitda": 1421.67,
+            "runway_months": "infinite",
+            "staff": 6,
+            "clients": 32,
+            "arr": 92234.01
+        },
+        {
+            "date": "2019-12",
+            "revenues": 8327.03,
+            "cash_eop": 87228.25,
+            "ebitda": -589.85,
+            "runway_months": 147.88,
+            "staff": 6,
+            "clients": 34,
+            "arr": 99924.38
+        },
+        {
+            "date": "2020-01",
+            "revenues": 8905.44,
+            "cash_eop": 86285.66,
+            "ebitda": -942.59,
+            "runway_months": 91.54,
+            "staff": 6,
+            "clients": 36,
+            "arr": 106865.25
+        },
+        {
+            "date": "2020-02",
+            "revenues": 8246.01,
+            "cash_eop": 86792.9,
+            "ebitda": 507.24,
+            "runway_months": "infinite",
+            "staff": 5,
+            "clients": 33,
+            "arr": 98952.15
+        },
+        {
+            "date": "2020-03",
+            "revenues": 8865.45,
+            "cash_eop": 85285.07,
+            "ebitda": -1507.83,
+            "runway_months": 56.56,
+            "staff": 5,
+            "clients": 35,
+            "arr": 106385.45
+        },
+        {
+            "date": "2020-04",
+            "revenues": 9729.65,
+            "cash_eop": 83950.26,
+            "ebitda": -1334.81,
+            "runway_months": 62.89,
+            "staff": 5,
+            "clients": 38,
+            "arr": 116755.78
+        },
+        {
+            "date": "2020-05",
+            "revenues": 9622.05,
+            "cash_eop": 85591.6,
+            "ebitda": 1641.34,
+            "runway_months": "infinite",
+            "staff": 4,
+            "clients": 37,
+            "arr": 115464.61
+        },
+        {
+            "date": "2020-06",
+            "revenues": 9363.02,
+            "cash_eop": 84956.48,
+            "ebitda": -635.12,
+            "runway_months": 133.77,
+            "staff": 3,
+            "clients": 36,
+            "arr": 112356.29
+        },
+        {
+            "date": "2020-07",
+            "revenues": 9964.22,
+            "cash_eop": 85112.17,
+            "ebitda": 155.69,
+            "runway_months": "infinite",
+            "staff": 3,
+            "clients": 38,
+            "arr": 119570.6
+        },
+        {
+            "date": "2020-08",
+            "revenues": 9326.07,
+            "cash_eop": 83364.44,
+            "ebitda": -1747.73,
+            "runway_months": 47.7,
+            "staff": 2,
+            "clients": 35,
+            "arr": 111912.84
+        },
+        {
+            "date": "2020-09",
+            "revenues": 9972.69,
+            "cash_eop": 83298.26,
+            "ebitda": -66.17,
+            "runway_months": 1258.81,
+            "staff": 2,
+            "clients": 37,
+            "arr": 119672.26
+        },
+        {
+            "date": "2020-10",
+            "revenues": 10604.72,
+            "cash_eop": 83489.41,
+            "ebitda": 191.15,
+            "runway_months": "infinite",
+            "staff": 2,
+            "clients": 39,
+            "arr": 127256.63
+        },
+        {
+            "date": "2020-11",
+            "revenues": 10366.06,
+            "cash_eop": 82126.35,
+            "ebitda": -1363.07,
+            "runway_months": 60.25,
+            "staff": 1,
+            "clients": 38,
+            "arr": 124392.73
+        },
+        {
+            "date": "2020-12",
+            "revenues": 10542.48,
+            "cash_eop": 82529.71,
+            "ebitda": 403.36,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 38,
+            "arr": 126509.71
+        },
+        {
+            "date": "2021-01",
+            "revenues": 11578.06,
+            "cash_eop": 83961.8,
+            "ebitda": 1432.1,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 41,
+            "arr": 138936.69
+        },
+        {
+            "date": "2021-02",
+            "revenues": 11385.97,
+            "cash_eop": 85781.77,
+            "ebitda": 1819.97,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 40,
+            "arr": 136631.61
+        },
+        {
+            "date": "2021-03",
+            "revenues": 12040.02,
+            "cash_eop": 85876.83,
+            "ebitda": 95.06,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 42,
+            "arr": 144480.19
+        },
+        {
+            "date": "2021-04",
+            "revenues": 11483.22,
+            "cash_eop": 87682.01,
+            "ebitda": 1805.17,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 40,
+            "arr": 137798.67
+        },
+        {
+            "date": "2021-05",
+            "revenues": 12106.89,
+            "cash_eop": 89487.14,
+            "ebitda": 1805.14,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 42,
+            "arr": 145282.73
+        },
+        {
+            "date": "2021-06",
+            "revenues": 11653.83,
+            "cash_eop": 89562.9,
+            "ebitda": 75.75,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 40,
+            "arr": 139845.94
+        },
+        {
+            "date": "2021-07",
+            "revenues": 11005.4,
+            "cash_eop": 90036.09,
+            "ebitda": 473.2,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 37,
+            "arr": 132064.85
+        },
+        {
+            "date": "2021-08",
+            "revenues": 10015.79,
+            "cash_eop": 88215.51,
+            "ebitda": -1820.58,
+            "runway_months": 48.45,
+            "staff": 1,
+            "clients": 33,
+            "arr": 120189.46
+        },
+        {
+            "date": "2021-09",
+            "revenues": 9614.61,
+            "cash_eop": 88765.25,
+            "ebitda": 549.73,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 31,
+            "arr": 115375.27
+        },
+        {
+            "date": "2021-10",
+            "revenues": 10049.09,
+            "cash_eop": 87359.95,
+            "ebitda": -1405.3,
+            "runway_months": 62.16,
+            "staff": 1,
+            "clients": 32,
+            "arr": 120589.09
+        },
+        {
+            "date": "2021-11",
+            "revenues": 10691.19,
+            "cash_eop": 87573.87,
+            "ebitda": 213.92,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 34,
+            "arr": 128294.27
+        },
+        {
+            "date": "2021-12",
+            "revenues": 9768.65,
+            "cash_eop": 88599.4,
+            "ebitda": 1025.53,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 31,
+            "arr": 117223.84
+        },
+        {
+            "date": "2022-01",
+            "revenues": 9742.35,
+            "cash_eop": 88899.11,
+            "ebitda": 299.72,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 30,
+            "arr": 116908.21
+        },
+        {
+            "date": "2022-02",
+            "revenues": 9359.43,
+            "cash_eop": 87426.33,
+            "ebitda": -1472.78,
+            "runway_months": 59.36,
+            "staff": 1,
+            "clients": 28,
+            "arr": 112313.22
+        },
+        {
+            "date": "2022-03",
+            "revenues": 8546.67,
+            "cash_eop": 86880.14,
+            "ebitda": -546.19,
+            "runway_months": 159.06,
+            "staff": 1,
+            "clients": 25,
+            "arr": 102560.1
+        },
+        {
+            "date": "2022-04",
+            "revenues": 7786.94,
+            "cash_eop": 88030.68,
+            "ebitda": 1150.55,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 22,
+            "arr": 93443.28
+        },
+        {
+            "date": "2022-05",
+            "revenues": 7437.41,
+            "cash_eop": 86698.61,
+            "ebitda": -1332.07,
+            "runway_months": 65.09,
+            "staff": 1,
+            "clients": 21,
+            "arr": 89248.88
+        },
+        {
+            "date": "2022-06",
+            "revenues": 6739.37,
+            "cash_eop": 86728.59,
+            "ebitda": 29.98,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 19,
+            "arr": 80872.5
+        },
+        {
+            "date": "2022-07",
+            "revenues": 7301.93,
+            "cash_eop": 87389.13,
+            "ebitda": 660.54,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 20,
+            "arr": 87623.18
+        },
+        {
+            "date": "2022-08",
+            "revenues": 7971.5,
+            "cash_eop": 88154.61,
+            "ebitda": 765.49,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 21,
+            "arr": 95658.04
+        },
+        {
+            "date": "2022-09",
+            "revenues": 7400.58,
+            "cash_eop": 88097.35,
+            "ebitda": -57.26,
+            "runway_months": 1538.42,
+            "staff": 1,
+            "clients": 19,
+            "arr": 88806.91
+        },
+        {
+            "date": "2022-10",
+            "revenues": 7025.96,
+            "cash_eop": 87241.04,
+            "ebitda": -856.31,
+            "runway_months": 101.88,
+            "staff": 1,
+            "clients": 18,
+            "arr": 84311.57
+        },
+        {
+            "date": "2022-11",
+            "revenues": 7155.77,
+            "cash_eop": 86955.27,
+            "ebitda": -285.77,
+            "runway_months": 304.29,
+            "staff": 1,
+            "clients": 18,
+            "arr": 85869.25
+        },
+        {
+            "date": "2022-12",
+            "revenues": 7685.49,
+            "cash_eop": 87150.51,
+            "ebitda": 195.24,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 19,
+            "arr": 92225.89
+        },
+        {
+            "date": "2023-01",
+            "revenues": 7087.62,
+            "cash_eop": 86170.96,
+            "ebitda": -979.55,
+            "runway_months": 87.97,
+            "staff": 1,
+            "clients": 17,
+            "arr": 85051.46
+        },
+        {
+            "date": "2023-02",
+            "revenues": 7769.19,
+            "cash_eop": 85304.96,
+            "ebitda": -866.0,
+            "runway_months": 98.5,
+            "staff": 1,
+            "clients": 18,
+            "arr": 93230.32
+        },
+        {
+            "date": "2023-03",
+            "revenues": 7136.9,
+            "cash_eop": 85439.96,
+            "ebitda": 135.0,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 16,
+            "arr": 85642.76
+        },
+        {
+            "date": "2023-04",
+            "revenues": 7580.43,
+            "cash_eop": 85664.49,
+            "ebitda": 224.52,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 16,
+            "arr": 90965.18
+        },
+        {
+            "date": "2023-05",
+            "revenues": 7603.87,
+            "cash_eop": 86012.55,
+            "ebitda": 348.06,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 16,
+            "arr": 91246.5
+        },
+        {
+            "date": "2023-06",
+            "revenues": 7672.46,
+            "cash_eop": 84715.84,
+            "ebitda": -1296.71,
+            "runway_months": 65.33,
+            "staff": 1,
+            "clients": 16,
+            "arr": 92069.48
+        },
+        {
+            "date": "2023-07",
+            "revenues": 7315.4,
+            "cash_eop": 84046.14,
+            "ebitda": -669.7,
+            "runway_months": 125.5,
+            "staff": 1,
+            "clients": 15,
+            "arr": 87784.86
+        },
+        {
+            "date": "2023-08",
+            "revenues": 6856.98,
+            "cash_eop": 85107.48,
+            "ebitda": 1061.33,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 14,
+            "arr": 82283.71
+        },
+        {
+            "date": "2023-09",
+            "revenues": 6452.68,
+            "cash_eop": 84410.02,
+            "ebitda": -697.46,
+            "runway_months": 121.02,
+            "staff": 1,
+            "clients": 13,
+            "arr": 77432.14
+        },
+        {
+            "date": "2023-10",
+            "revenues": 6406.01,
+            "cash_eop": 83277.82,
+            "ebitda": -1132.19,
+            "runway_months": 73.55,
+            "staff": 1,
+            "clients": 12,
+            "arr": 76872.07
+        },
+        {
+            "date": "2023-11",
+            "revenues": 6532.44,
+            "cash_eop": 82177.14,
+            "ebitda": -1100.68,
+            "runway_months": 74.66,
+            "staff": 1,
+            "clients": 12,
+            "arr": 78389.23
+        }
+    ],
+    "SlowGrower1": [
+        {
+            "date": "2019-01",
+            "revenues": 5964.34,
+            "cash_eop": 49896.3,
+            "ebitda": -1062.1,
+            "runway_months": 46.98,
+            "staff": 15,
+            "clients": 15,
+            "arr": 71572.12
+        },
+        {
+            "date": "2019-01",
+            "revenues": 6164.75,
+            "cash_eop": 49076.39,
+            "ebitda": -819.91,
+            "runway_months": 59.86,
+            "staff": 15,
+            "clients": 15,
+            "arr": 73977.01
+        },
+        {
+            "date": "2019-03",
+            "revenues": 6283.93,
+            "cash_eop": 48028.68,
+            "ebitda": -1047.71,
+            "runway_months": 45.84,
+            "staff": 15,
+            "clients": 15,
+            "arr": 75407.18
+        },
+        {
+            "date": "2019-04",
+            "revenues": 6418.44,
+            "cash_eop": 49039.54,
+            "ebitda": 1010.86,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 77021.33
+        },
+        {
+            "date": "2019-05",
+            "revenues": 6619.56,
+            "cash_eop": 49086.08,
+            "ebitda": 46.54,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 79434.68
+        },
+        {
+            "date": "2019-05",
+            "revenues": 6936.75,
+            "cash_eop": 50337.01,
+            "ebitda": 1250.93,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 83241.05
+        },
+        {
+            "date": "2019-06",
+            "revenues": 7222.93,
+            "cash_eop": 49391.53,
+            "ebitda": -945.48,
+            "runway_months": 52.24,
+            "staff": 15,
+            "clients": 15,
+            "arr": 86675.19
+        },
+        {
+            "date": "2019-07",
+            "revenues": 7412.85,
+            "cash_eop": 49175.19,
+            "ebitda": -216.33,
+            "runway_months": 227.31,
+            "staff": 15,
+            "clients": 15,
+            "arr": 88954.18
+        },
+        {
+            "date": "2019-08",
+            "revenues": 7592.83,
+            "cash_eop": 49518.21,
+            "ebitda": 343.02,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 91113.96
+        },
+        {
+            "date": "2019-09",
+            "revenues": 7799.09,
+            "cash_eop": 49690.92,
+            "ebitda": 172.71,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 93589.14
+        },
+        {
+            "date": "2019-10",
+            "revenues": 7957.11,
+            "cash_eop": 50430.1,
+            "ebitda": 739.18,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 95485.31
+        },
+        {
+            "date": "2019-11",
+            "revenues": 8100.59,
+            "cash_eop": 51965.86,
+            "ebitda": 1535.77,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 97207.13
+        },
+        {
+            "date": "2019-12",
+            "revenues": 8204.08,
+            "cash_eop": 52867.85,
+            "ebitda": 901.98,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 98448.98
+        },
+        {
+            "date": "2020-01",
+            "revenues": 8306.39,
+            "cash_eop": 53427.74,
+            "ebitda": 559.89,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 99676.71
+        },
+        {
+            "date": "2020-02",
+            "revenues": 8392.98,
+            "cash_eop": 54395.85,
+            "ebitda": 968.11,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 100715.71
+        },
+        {
+            "date": "2020-03",
+            "revenues": 8810.14,
+            "cash_eop": 54620.73,
+            "ebitda": 224.88,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 105721.72
+        },
+        {
+            "date": "2020-04",
+            "revenues": 8913.27,
+            "cash_eop": 56209.42,
+            "ebitda": 1588.69,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 106959.21
+        },
+        {
+            "date": "2020-05",
+            "revenues": 9082.92,
+            "cash_eop": 56842.84,
+            "ebitda": 633.42,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 108994.99
+        },
+        {
+            "date": "2020-06",
+            "revenues": 9465.22,
+            "cash_eop": 57160.61,
+            "ebitda": 317.78,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 113582.61
+        },
+        {
+            "date": "2020-07",
+            "revenues": 9655.39,
+            "cash_eop": 58682.5,
+            "ebitda": 1521.88,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 115864.67
+        },
+        {
+            "date": "2020-08",
+            "revenues": 9827.98,
+            "cash_eop": 58953.43,
+            "ebitda": 270.93,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 117935.76
+        },
+        {
+            "date": "2020-09",
+            "revenues": 10268.18,
+            "cash_eop": 60273.82,
+            "ebitda": 1320.39,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 123218.11
+        },
+        {
+            "date": "2020-10",
+            "revenues": 10610.97,
+            "cash_eop": 60812.81,
+            "ebitda": 538.99,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 127331.62
+        },
+        {
+            "date": "2020-11",
+            "revenues": 10911.34,
+            "cash_eop": 58977.71,
+            "ebitda": -1835.1,
+            "runway_months": 32.14,
+            "staff": 15,
+            "clients": 15,
+            "arr": 130936.13
+        },
+        {
+            "date": "2020-12",
+            "revenues": 11299.95,
+            "cash_eop": 58011.54,
+            "ebitda": -966.17,
+            "runway_months": 60.04,
+            "staff": 15,
+            "clients": 15,
+            "arr": 135599.4
+        },
+        {
+            "date": "2021-01",
+            "revenues": 11453.69,
+            "cash_eop": 59177.26,
+            "ebitda": 1165.73,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 137444.27
+        },
+        {
+            "date": "2021-02",
+            "revenues": 11636.67,
+            "cash_eop": 58657.58,
+            "ebitda": -519.68,
+            "runway_months": 112.87,
+            "staff": 15,
+            "clients": 15,
+            "arr": 139640.1
+        },
+        {
+            "date": "2021-03",
+            "revenues": 11794.95,
+            "cash_eop": 56939.8,
+            "ebitda": -1717.78,
+            "runway_months": 33.15,
+            "staff": 15,
+            "clients": 15,
+            "arr": 141539.42
+        },
+        {
+            "date": "2021-04",
+            "revenues": 11925.01,
+            "cash_eop": 54724.55,
+            "ebitda": -2215.25,
+            "runway_months": 24.7,
+            "staff": 15,
+            "clients": 15,
+            "arr": 143100.16
+        },
+        {
+            "date": "2021-05",
+            "revenues": 12380.98,
+            "cash_eop": 54721.54,
+            "ebitda": -3.01,
+            "runway_months": 18184.47,
+            "staff": 15,
+            "clients": 15,
+            "arr": 148571.72
+        },
+        {
+            "date": "2021-06",
+            "revenues": 12643.65,
+            "cash_eop": 53125.14,
+            "ebitda": -1596.4,
+            "runway_months": 33.28,
+            "staff": 15,
+            "clients": 15,
+            "arr": 151723.83
+        },
+        {
+            "date": "2021-07",
+            "revenues": 13253.29,
+            "cash_eop": 50768.61,
+            "ebitda": -2356.53,
+            "runway_months": 21.54,
+            "staff": 15,
+            "clients": 15,
+            "arr": 159039.47
+        },
+        {
+            "date": "2021-08",
+            "revenues": 13488.12,
+            "cash_eop": 48407.35,
+            "ebitda": -2361.26,
+            "runway_months": 20.5,
+            "staff": 15,
+            "clients": 15,
+            "arr": 161857.47
+        },
+        {
+            "date": "2021-09",
+            "revenues": 13771.94,
+            "cash_eop": 45800.03,
+            "ebitda": -2607.32,
+            "runway_months": 17.57,
+            "staff": 15,
+            "clients": 15,
+            "arr": 165263.22
+        },
+        {
+            "date": "2021-10",
+            "revenues": 14395.56,
+            "cash_eop": 47295.92,
+            "ebitda": 1495.9,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 172746.67
+        },
+        {
+            "date": "2021-11",
+            "revenues": 14820.16,
+            "cash_eop": 46015.39,
+            "ebitda": -1280.53,
+            "runway_months": 35.93,
+            "staff": 15,
+            "clients": 15,
+            "arr": 177841.92
+        },
+        {
+            "date": "2021-12",
+            "revenues": 15495.64,
+            "cash_eop": 48292.19,
+            "ebitda": 2276.81,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 185947.63
+        },
+        {
+            "date": "2022-01",
+            "revenues": 15802.98,
+            "cash_eop": 48541.16,
+            "ebitda": 248.96,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 189635.73
+        },
+        {
+            "date": "2022-02",
+            "revenues": 16268.48,
+            "cash_eop": 50425.03,
+            "ebitda": 1883.88,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 195221.79
+        },
+        {
+            "date": "2022-03",
+            "revenues": 17068.43,
+            "cash_eop": 50380.66,
+            "ebitda": -44.38,
+            "runway_months": 1135.28,
+            "staff": 15,
+            "clients": 15,
+            "arr": 204821.11
+        },
+        {
+            "date": "2022-04",
+            "revenues": 17782.33,
+            "cash_eop": 53200.87,
+            "ebitda": 2820.21,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 213388.0
+        },
+        {
+            "date": "2022-05",
+            "revenues": 18405.61,
+            "cash_eop": 56737.68,
+            "ebitda": 3536.82,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 220867.38
+        },
+        {
+            "date": "2022-06",
+            "revenues": 19063.87,
+            "cash_eop": 53697.51,
+            "ebitda": -3040.18,
+            "runway_months": 17.66,
+            "staff": 15,
+            "clients": 15,
+            "arr": 228766.49
+        },
+        {
+            "date": "2022-07",
+            "revenues": 19803.4,
+            "cash_eop": 51454.84,
+            "ebitda": -2242.67,
+            "runway_months": 22.94,
+            "staff": 15,
+            "clients": 15,
+            "arr": 237640.85
+        },
+        {
+            "date": "2022-08",
+            "revenues": 20656.75,
+            "cash_eop": 49669.36,
+            "ebitda": -1785.48,
+            "runway_months": 27.82,
+            "staff": 15,
+            "clients": 15,
+            "arr": 247881.0
+        },
+        {
+            "date": "2022-09",
+            "revenues": 21588.51,
+            "cash_eop": 52870.57,
+            "ebitda": 3201.21,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 259062.17
+        },
+        {
+            "date": "2022-10",
+            "revenues": 22418.1,
+            "cash_eop": 57119.11,
+            "ebitda": 4248.53,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 269017.25
+        },
+        {
+            "date": "2022-11",
+            "revenues": 23459.15,
+            "cash_eop": 58622.91,
+            "ebitda": 1503.8,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 281509.76
+        },
+        {
+            "date": "2022-12",
+            "revenues": 24267.22,
+            "cash_eop": 60512.16,
+            "ebitda": 1889.25,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 291206.63
+        },
+        {
+            "date": "2023-01",
+            "revenues": 24693.33,
+            "cash_eop": 60062.66,
+            "ebitda": -449.5,
+            "runway_months": 133.62,
+            "staff": 15,
+            "clients": 15,
+            "arr": 296319.93
+        },
+        {
+            "date": "2023-02",
+            "revenues": 25176.96,
+            "cash_eop": 59181.84,
+            "ebitda": -880.82,
+            "runway_months": 67.19,
+            "staff": 15,
+            "clients": 15,
+            "arr": 302123.49
+        },
+        {
+            "date": "2023-03",
+            "revenues": 25925.85,
+            "cash_eop": 62342.22,
+            "ebitda": 3160.38,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 311110.15
+        },
+        {
+            "date": "2023-04",
+            "revenues": 26482.04,
+            "cash_eop": 65461.25,
+            "ebitda": 3119.03,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 317784.46
+        },
+        {
+            "date": "2023-05",
+            "revenues": 26959.52,
+            "cash_eop": 69640.26,
+            "ebitda": 4179.01,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 323514.29
+        },
+        {
+            "date": "2023-06",
+            "revenues": 28145.06,
+            "cash_eop": 69466.01,
+            "ebitda": -174.25,
+            "runway_months": 398.65,
+            "staff": 15,
+            "clients": 15,
+            "arr": 337740.77
+        },
+        {
+            "date": "2023-07",
+            "revenues": 29350.3,
+            "cash_eop": 72374.01,
+            "ebitda": 2908.0,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 352203.57
+        },
+        {
+            "date": "2023-08",
+            "revenues": 30016.11,
+            "cash_eop": 68546.27,
+            "ebitda": -3827.74,
+            "runway_months": 17.91,
+            "staff": 15,
+            "clients": 15,
+            "arr": 360193.32
+        },
+        {
+            "date": "2023-09",
+            "revenues": 30384.32,
+            "cash_eop": 72911.74,
+            "ebitda": 4365.47,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 364611.88
+        },
+        {
+            "date": "2023-10",
+            "revenues": 31376.07,
+            "cash_eop": 72121.25,
+            "ebitda": -790.49,
+            "runway_months": 91.24,
+            "staff": 15,
+            "clients": 15,
+            "arr": 376512.85
+        },
+        {
+            "date": "2023-11",
+            "revenues": 32021.08,
+            "cash_eop": 75870.89,
+            "ebitda": 3749.64,
+            "runway_months": "infinite",
+            "staff": 15,
+            "clients": 15,
+            "arr": 384253.02
+        }
+    ],
+    "SlowGrower2": [
+        {
+            "date": "2019-01",
+            "revenues": 6106.53,
+            "cash_eop": 183358.2,
+            "ebitda": 182.52,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 73278.33
+        },
+        {
+            "date": "2019-01",
+            "revenues": 6194.82,
+            "cash_eop": 184583.95,
+            "ebitda": 1225.75,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 74337.85
+        },
+        {
+            "date": "2019-03",
+            "revenues": 6314.94,
+            "cash_eop": 183385.36,
+            "ebitda": -1198.59,
+            "runway_months": 153.0,
+            "staff": 14,
+            "clients": 11,
+            "arr": 75779.32
+        },
+        {
+            "date": "2019-04",
+            "revenues": 6431.34,
+            "cash_eop": 182526.43,
+            "ebitda": -858.93,
+            "runway_months": 212.5,
+            "staff": 14,
+            "clients": 11,
+            "arr": 77176.05
+        },
+        {
+            "date": "2019-05",
+            "revenues": 6569.93,
+            "cash_eop": 183105.62,
+            "ebitda": 579.19,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 78839.15
+        },
+        {
+            "date": "2019-05",
+            "revenues": 6840.37,
+            "cash_eop": 183481.85,
+            "ebitda": 376.22,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 82084.41
+        },
+        {
+            "date": "2019-06",
+            "revenues": 6978.0,
+            "cash_eop": 182293.43,
+            "ebitda": -1188.42,
+            "runway_months": 153.39,
+            "staff": 14,
+            "clients": 11,
+            "arr": 83735.95
+        },
+        {
+            "date": "2019-07",
+            "revenues": 7221.78,
+            "cash_eop": 183304.73,
+            "ebitda": 1011.3,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 86661.33
+        },
+        {
+            "date": "2019-08",
+            "revenues": 7555.1,
+            "cash_eop": 181953.12,
+            "ebitda": -1351.62,
+            "runway_months": 134.62,
+            "staff": 14,
+            "clients": 11,
+            "arr": 90661.17
+        },
+        {
+            "date": "2019-09",
+            "revenues": 7694.89,
+            "cash_eop": 182405.78,
+            "ebitda": 452.66,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 92338.66
+        },
+        {
+            "date": "2019-10",
+            "revenues": 8077.99,
+            "cash_eop": 180790.67,
+            "ebitda": -1615.11,
+            "runway_months": 111.94,
+            "staff": 14,
+            "clients": 11,
+            "arr": 96935.88
+        },
+        {
+            "date": "2019-11",
+            "revenues": 8302.44,
+            "cash_eop": 182047.65,
+            "ebitda": 1256.98,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 99629.32
+        },
+        {
+            "date": "2019-12",
+            "revenues": 8478.5,
+            "cash_eop": 181914.86,
+            "ebitda": -132.79,
+            "runway_months": 1369.92,
+            "staff": 14,
+            "clients": 11,
+            "arr": 101742.02
+        },
+        {
+            "date": "2020-01",
+            "revenues": 8843.51,
+            "cash_eop": 181393.16,
+            "ebitda": -521.7,
+            "runway_months": 347.7,
+            "staff": 14,
+            "clients": 11,
+            "arr": 106122.08
+        },
+        {
+            "date": "2020-02",
+            "revenues": 9049.56,
+            "cash_eop": 180820.33,
+            "ebitda": -572.83,
+            "runway_months": 315.66,
+            "staff": 14,
+            "clients": 11,
+            "arr": 108594.75
+        },
+        {
+            "date": "2020-03",
+            "revenues": 9355.46,
+            "cash_eop": 179278.14,
+            "ebitda": -1542.19,
+            "runway_months": 116.25,
+            "staff": 14,
+            "clients": 11,
+            "arr": 112265.53
+        },
+        {
+            "date": "2020-04",
+            "revenues": 9720.69,
+            "cash_eop": 181043.02,
+            "ebitda": 1764.88,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 116648.24
+        },
+        {
+            "date": "2020-05",
+            "revenues": 10022.55,
+            "cash_eop": 182294.02,
+            "ebitda": 1251.0,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 120270.61
+        },
+        {
+            "date": "2020-06",
+            "revenues": 10388.54,
+            "cash_eop": 181390.34,
+            "ebitda": -903.68,
+            "runway_months": 200.73,
+            "staff": 14,
+            "clients": 11,
+            "arr": 124662.49
+        },
+        {
+            "date": "2020-07",
+            "revenues": 10855.63,
+            "cash_eop": 180603.68,
+            "ebitda": -786.66,
+            "runway_months": 229.58,
+            "staff": 14,
+            "clients": 11,
+            "arr": 130267.54
+        },
+        {
+            "date": "2020-08",
+            "revenues": 11187.37,
+            "cash_eop": 182589.34,
+            "ebitda": 1985.66,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 134248.43
+        },
+        {
+            "date": "2020-09",
+            "revenues": 11348.13,
+            "cash_eop": 182365.02,
+            "ebitda": -224.33,
+            "runway_months": 812.94,
+            "staff": 14,
+            "clients": 11,
+            "arr": 136177.54
+        },
+        {
+            "date": "2020-10",
+            "revenues": 11672.2,
+            "cash_eop": 180700.32,
+            "ebitda": -1664.7,
+            "runway_months": 108.55,
+            "staff": 14,
+            "clients": 11,
+            "arr": 140066.35
+        },
+        {
+            "date": "2020-11",
+            "revenues": 11905.51,
+            "cash_eop": 182452.27,
+            "ebitda": 1751.95,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 142866.13
+        },
+        {
+            "date": "2020-12",
+            "revenues": 12354.98,
+            "cash_eop": 184457.32,
+            "ebitda": 2005.06,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 148259.79
+        },
+        {
+            "date": "2021-01",
+            "revenues": 12964.04,
+            "cash_eop": 183310.36,
+            "ebitda": -1146.97,
+            "runway_months": 159.82,
+            "staff": 14,
+            "clients": 11,
+            "arr": 155568.43
+        },
+        {
+            "date": "2021-02",
+            "revenues": 13452.69,
+            "cash_eop": 184060.64,
+            "ebitda": 750.28,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 161432.33
+        },
+        {
+            "date": "2021-03",
+            "revenues": 13973.09,
+            "cash_eop": 185329.78,
+            "ebitda": 1269.15,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 167677.1
+        },
+        {
+            "date": "2021-04",
+            "revenues": 14577.98,
+            "cash_eop": 182500.39,
+            "ebitda": -2829.4,
+            "runway_months": 64.5,
+            "staff": 14,
+            "clients": 11,
+            "arr": 174935.78
+        },
+        {
+            "date": "2021-05",
+            "revenues": 15229.57,
+            "cash_eop": 184169.79,
+            "ebitda": 1669.4,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 182754.83
+        },
+        {
+            "date": "2021-06",
+            "revenues": 15690.77,
+            "cash_eop": 185949.47,
+            "ebitda": 1779.68,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 188289.19
+        },
+        {
+            "date": "2021-07",
+            "revenues": 16238.59,
+            "cash_eop": 183944.81,
+            "ebitda": -2004.66,
+            "runway_months": 91.76,
+            "staff": 14,
+            "clients": 11,
+            "arr": 194863.12
+        },
+        {
+            "date": "2021-08",
+            "revenues": 16456.56,
+            "cash_eop": 183107.26,
+            "ebitda": -837.55,
+            "runway_months": 218.62,
+            "staff": 14,
+            "clients": 11,
+            "arr": 197478.73
+        },
+        {
+            "date": "2021-09",
+            "revenues": 17102.9,
+            "cash_eop": 183982.26,
+            "ebitda": 875.01,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 205234.84
+        },
+        {
+            "date": "2021-10",
+            "revenues": 17685.99,
+            "cash_eop": 180779.16,
+            "ebitda": -3203.1,
+            "runway_months": 56.44,
+            "staff": 14,
+            "clients": 11,
+            "arr": 212231.84
+        },
+        {
+            "date": "2021-11",
+            "revenues": 18124.57,
+            "cash_eop": 177864.58,
+            "ebitda": -2914.59,
+            "runway_months": 61.03,
+            "staff": 14,
+            "clients": 11,
+            "arr": 217494.8
+        },
+        {
+            "date": "2021-12",
+            "revenues": 18535.22,
+            "cash_eop": 175490.98,
+            "ebitda": -2373.6,
+            "runway_months": 73.93,
+            "staff": 14,
+            "clients": 11,
+            "arr": 222422.62
+        },
+        {
+            "date": "2022-01",
+            "revenues": 19282.41,
+            "cash_eop": 174688.24,
+            "ebitda": -802.74,
+            "runway_months": 217.61,
+            "staff": 14,
+            "clients": 11,
+            "arr": 231388.94
+        },
+        {
+            "date": "2022-02",
+            "revenues": 19502.98,
+            "cash_eop": 171763.76,
+            "ebitda": -2924.48,
+            "runway_months": 58.73,
+            "staff": 14,
+            "clients": 11,
+            "arr": 234035.71
+        },
+        {
+            "date": "2022-03",
+            "revenues": 19888.4,
+            "cash_eop": 168034.17,
+            "ebitda": -3729.59,
+            "runway_months": 45.05,
+            "staff": 14,
+            "clients": 11,
+            "arr": 238660.84
+        },
+        {
+            "date": "2022-04",
+            "revenues": 20205.63,
+            "cash_eop": 168411.59,
+            "ebitda": 377.42,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 242467.53
+        },
+        {
+            "date": "2022-05",
+            "revenues": 20929.23,
+            "cash_eop": 167487.65,
+            "ebitda": -923.94,
+            "runway_months": 181.27,
+            "staff": 14,
+            "clients": 11,
+            "arr": 251150.77
+        },
+        {
+            "date": "2022-06",
+            "revenues": 21860.61,
+            "cash_eop": 167775.27,
+            "ebitda": 287.62,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 262327.33
+        },
+        {
+            "date": "2022-07",
+            "revenues": 22772.9,
+            "cash_eop": 169354.76,
+            "ebitda": 1579.49,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 273274.85
+        },
+        {
+            "date": "2022-08",
+            "revenues": 23319.28,
+            "cash_eop": 173428.57,
+            "ebitda": 4073.81,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 279831.39
+        },
+        {
+            "date": "2022-09",
+            "revenues": 24344.78,
+            "cash_eop": 176976.84,
+            "ebitda": 3548.27,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 292137.36
+        },
+        {
+            "date": "2022-10",
+            "revenues": 24742.24,
+            "cash_eop": 175526.55,
+            "ebitda": -1450.29,
+            "runway_months": 121.03,
+            "staff": 14,
+            "clients": 11,
+            "arr": 296906.9
+        },
+        {
+            "date": "2022-11",
+            "revenues": 25755.21,
+            "cash_eop": 175725.5,
+            "ebitda": 198.95,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 309062.52
+        },
+        {
+            "date": "2022-12",
+            "revenues": 27010.65,
+            "cash_eop": 178906.97,
+            "ebitda": 3181.47,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 324127.75
+        },
+        {
+            "date": "2023-01",
+            "revenues": 27479.85,
+            "cash_eop": 177266.63,
+            "ebitda": -1640.34,
+            "runway_months": 108.07,
+            "staff": 14,
+            "clients": 11,
+            "arr": 329758.23
+        },
+        {
+            "date": "2023-02",
+            "revenues": 28707.9,
+            "cash_eop": 176357.26,
+            "ebitda": -909.36,
+            "runway_months": 193.93,
+            "staff": 14,
+            "clients": 11,
+            "arr": 344494.81
+        },
+        {
+            "date": "2023-03",
+            "revenues": 29396.48,
+            "cash_eop": 181056.72,
+            "ebitda": 4699.46,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 352757.76
+        },
+        {
+            "date": "2023-04",
+            "revenues": 30080.68,
+            "cash_eop": 183938.75,
+            "ebitda": 2882.02,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 360968.19
+        },
+        {
+            "date": "2023-05",
+            "revenues": 30837.83,
+            "cash_eop": 186220.59,
+            "ebitda": 2281.84,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 370053.97
+        },
+        {
+            "date": "2023-06",
+            "revenues": 31906.45,
+            "cash_eop": 180116.15,
+            "ebitda": -6104.44,
+            "runway_months": 29.51,
+            "staff": 14,
+            "clients": 11,
+            "arr": 382877.45
+        },
+        {
+            "date": "2023-07",
+            "revenues": 33142.82,
+            "cash_eop": 177301.48,
+            "ebitda": -2814.68,
+            "runway_months": 62.99,
+            "staff": 14,
+            "clients": 11,
+            "arr": 397713.88
+        },
+        {
+            "date": "2023-08",
+            "revenues": 33906.3,
+            "cash_eop": 180779.23,
+            "ebitda": 3477.75,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 406875.59
+        },
+        {
+            "date": "2023-09",
+            "revenues": 34626.8,
+            "cash_eop": 179756.76,
+            "ebitda": -1022.47,
+            "runway_months": 175.81,
+            "staff": 14,
+            "clients": 11,
+            "arr": 415521.65
+        },
+        {
+            "date": "2023-10",
+            "revenues": 35880.22,
+            "cash_eop": 185839.27,
+            "ebitda": 6082.52,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 430562.66
+        },
+        {
+            "date": "2023-11",
+            "revenues": 36375.44,
+            "cash_eop": 188519.96,
+            "ebitda": 2680.68,
+            "runway_months": "infinite",
+            "staff": 14,
+            "clients": 11,
+            "arr": 436505.29
+        }
+    ],
+    "SlowGrower3": [
+        {
+            "date": "2019-01",
+            "revenues": 7404.7,
+            "cash_eop": 102959.06,
+            "ebitda": 1407.84,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 22,
+            "arr": 88856.38
+        },
+        {
+            "date": "2019-01",
+            "revenues": 7730.2,
+            "cash_eop": 103613.53,
+            "ebitda": 654.46,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 22,
+            "arr": 92762.41
+        },
+        {
+            "date": "2019-03",
+            "revenues": 7993.98,
+            "cash_eop": 105091.33,
+            "ebitda": 1477.8,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 22,
+            "arr": 95927.75
+        },
+        {
+            "date": "2019-04",
+            "revenues": 8338.86,
+            "cash_eop": 105352.92,
+            "ebitda": 261.6,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 22,
+            "arr": 100066.31
+        },
+        {
+            "date": "2019-05",
+            "revenues": 8676.91,
+            "cash_eop": 107085.88,
+            "ebitda": 1732.95,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 22,
+            "arr": 104122.95
+        },
+        {
+            "date": "2019-05",
+            "revenues": 8948.46,
+            "cash_eop": 106801.57,
+            "ebitda": -284.31,
+            "runway_months": 375.65,
+            "staff": 18,
+            "clients": 22,
+            "arr": 107381.56
+        },
+        {
+            "date": "2019-06",
+            "revenues": 9334.26,
+            "cash_eop": 106118.7,
+            "ebitda": -682.86,
+            "runway_months": 155.4,
+            "staff": 18,
+            "clients": 22,
+            "arr": 112011.11
+        },
+        {
+            "date": "2019-07",
+            "revenues": 9698.18,
+            "cash_eop": 107299.01,
+            "ebitda": 1180.31,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 22,
+            "arr": 116378.2
+        },
+        {
+            "date": "2019-08",
+            "revenues": 10105.68,
+            "cash_eop": 108716.01,
+            "ebitda": 1417.0,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 22,
+            "arr": 121268.2
+        },
+        {
+            "date": "2019-09",
+            "revenues": 10529.53,
+            "cash_eop": 107869.81,
+            "ebitda": -846.2,
+            "runway_months": 127.48,
+            "staff": 18,
+            "clients": 22,
+            "arr": 126354.41
+        },
+        {
+            "date": "2019-10",
+            "revenues": 10863.91,
+            "cash_eop": 106597.04,
+            "ebitda": -1272.77,
+            "runway_months": 83.75,
+            "staff": 18,
+            "clients": 22,
+            "arr": 130366.94
+        },
+        {
+            "date": "2019-11",
+            "revenues": 10998.62,
+            "cash_eop": 106626.3,
+            "ebitda": 29.25,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 22,
+            "arr": 131983.5
+        },
+        {
+            "date": "2019-12",
+            "revenues": 11278.57,
+            "cash_eop": 107317.04,
+            "ebitda": 690.74,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 22,
+            "arr": 135342.88
+        },
+        {
+            "date": "2020-01",
+            "revenues": 11686.09,
+            "cash_eop": 106320.74,
+            "ebitda": -996.29,
+            "runway_months": 106.72,
+            "staff": 18,
+            "clients": 22,
+            "arr": 140233.03
+        },
+        {
+            "date": "2020-02",
+            "revenues": 11981.42,
+            "cash_eop": 104622.88,
+            "ebitda": -1697.86,
+            "runway_months": 61.62,
+            "staff": 18,
+            "clients": 22,
+            "arr": 143777.01
+        },
+        {
+            "date": "2020-03",
+            "revenues": 12522.38,
+            "cash_eop": 103305.93,
+            "ebitda": -1316.95,
+            "runway_months": 78.44,
+            "staff": 18,
+            "clients": 22,
+            "arr": 150268.57
+        },
+        {
+            "date": "2020-04",
+            "revenues": 13083.3,
+            "cash_eop": 105165.91,
+            "ebitda": 1859.98,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 22,
+            "arr": 156999.61
+        },
+        {
+            "date": "2020-05",
+            "revenues": 13696.39,
+            "cash_eop": 103186.43,
+            "ebitda": -1979.48,
+            "runway_months": 52.13,
+            "staff": 18,
+            "clients": 23,
+            "arr": 164356.68
+        },
+        {
+            "date": "2020-06",
+            "revenues": 13849.38,
+            "cash_eop": 101494.21,
+            "ebitda": -1692.22,
+            "runway_months": 59.98,
+            "staff": 18,
+            "clients": 23,
+            "arr": 166192.52
+        },
+        {
+            "date": "2020-07",
+            "revenues": 14518.25,
+            "cash_eop": 103848.02,
+            "ebitda": 2353.81,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 24,
+            "arr": 174218.95
+        },
+        {
+            "date": "2020-08",
+            "revenues": 14790.22,
+            "cash_eop": 101384.15,
+            "ebitda": -2463.87,
+            "runway_months": 41.15,
+            "staff": 18,
+            "clients": 24,
+            "arr": 177482.62
+        },
+        {
+            "date": "2020-09",
+            "revenues": 15135.9,
+            "cash_eop": 98696.91,
+            "ebitda": -2687.24,
+            "runway_months": 36.73,
+            "staff": 18,
+            "clients": 24,
+            "arr": 181630.84
+        },
+        {
+            "date": "2020-10",
+            "revenues": 15596.53,
+            "cash_eop": 96340.73,
+            "ebitda": -2356.18,
+            "runway_months": 40.89,
+            "staff": 18,
+            "clients": 24,
+            "arr": 187158.33
+        },
+        {
+            "date": "2020-11",
+            "revenues": 15989.25,
+            "cash_eop": 95621.19,
+            "ebitda": -719.54,
+            "runway_months": 132.89,
+            "staff": 18,
+            "clients": 24,
+            "arr": 191871.0
+        },
+        {
+            "date": "2020-12",
+            "revenues": 16520.1,
+            "cash_eop": 94724.47,
+            "ebitda": -896.72,
+            "runway_months": 105.63,
+            "staff": 18,
+            "clients": 24,
+            "arr": 198241.23
+        },
+        {
+            "date": "2021-01",
+            "revenues": 16965.18,
+            "cash_eop": 93030.16,
+            "ebitda": -1694.31,
+            "runway_months": 54.91,
+            "staff": 18,
+            "clients": 24,
+            "arr": 203582.19
+        },
+        {
+            "date": "2021-02",
+            "revenues": 17503.57,
+            "cash_eop": 90428.42,
+            "ebitda": -2601.74,
+            "runway_months": 34.76,
+            "staff": 18,
+            "clients": 24,
+            "arr": 210042.79
+        },
+        {
+            "date": "2021-03",
+            "revenues": 17948.54,
+            "cash_eop": 89105.74,
+            "ebitda": -1322.68,
+            "runway_months": 67.37,
+            "staff": 18,
+            "clients": 24,
+            "arr": 215382.49
+        },
+        {
+            "date": "2021-04",
+            "revenues": 18341.03,
+            "cash_eop": 92292.0,
+            "ebitda": 3186.25,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 24,
+            "arr": 220092.37
+        },
+        {
+            "date": "2021-05",
+            "revenues": 19182.58,
+            "cash_eop": 91182.38,
+            "ebitda": -1109.61,
+            "runway_months": 82.17,
+            "staff": 18,
+            "clients": 25,
+            "arr": 230190.98
+        },
+        {
+            "date": "2021-06",
+            "revenues": 19670.15,
+            "cash_eop": 89019.35,
+            "ebitda": -2163.03,
+            "runway_months": 41.15,
+            "staff": 18,
+            "clients": 25,
+            "arr": 236041.83
+        },
+        {
+            "date": "2021-07",
+            "revenues": 20386.59,
+            "cash_eop": 87939.09,
+            "ebitda": -1080.26,
+            "runway_months": 81.41,
+            "staff": 18,
+            "clients": 25,
+            "arr": 244639.09
+        },
+        {
+            "date": "2021-08",
+            "revenues": 21211.02,
+            "cash_eop": 89422.15,
+            "ebitda": 1483.05,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 26,
+            "arr": 254532.23
+        },
+        {
+            "date": "2021-09",
+            "revenues": 22206.51,
+            "cash_eop": 91477.83,
+            "ebitda": 2055.69,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 27,
+            "arr": 266478.17
+        },
+        {
+            "date": "2021-10",
+            "revenues": 22695.35,
+            "cash_eop": 91113.43,
+            "ebitda": -364.41,
+            "runway_months": 250.03,
+            "staff": 18,
+            "clients": 27,
+            "arr": 272344.24
+        },
+        {
+            "date": "2021-11",
+            "revenues": 23492.07,
+            "cash_eop": 93904.21,
+            "ebitda": 2790.78,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 27,
+            "arr": 281904.84
+        },
+        {
+            "date": "2021-12",
+            "revenues": 24462.33,
+            "cash_eop": 94268.98,
+            "ebitda": 364.77,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 28,
+            "arr": 293548.0
+        },
+        {
+            "date": "2022-01",
+            "revenues": 25157.51,
+            "cash_eop": 96747.35,
+            "ebitda": 2478.37,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 28,
+            "arr": 301890.1
+        },
+        {
+            "date": "2022-02",
+            "revenues": 26113.87,
+            "cash_eop": 101835.89,
+            "ebitda": 5088.54,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 29,
+            "arr": 313366.42
+        },
+        {
+            "date": "2022-03",
+            "revenues": 27052.52,
+            "cash_eop": 103314.58,
+            "ebitda": 1478.69,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 30,
+            "arr": 324630.27
+        },
+        {
+            "date": "2022-04",
+            "revenues": 27631.68,
+            "cash_eop": 104470.87,
+            "ebitda": 1156.29,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 30,
+            "arr": 331580.2
+        },
+        {
+            "date": "2022-05",
+            "revenues": 28432.97,
+            "cash_eop": 101067.17,
+            "ebitda": -3403.71,
+            "runway_months": 29.69,
+            "staff": 18,
+            "clients": 30,
+            "arr": 341195.6
+        },
+        {
+            "date": "2022-06",
+            "revenues": 29730.56,
+            "cash_eop": 97445.15,
+            "ebitda": -3622.01,
+            "runway_months": 26.9,
+            "staff": 18,
+            "clients": 31,
+            "arr": 356766.66
+        },
+        {
+            "date": "2022-07",
+            "revenues": 30332.5,
+            "cash_eop": 97440.43,
+            "ebitda": -4.73,
+            "runway_months": 20620.59,
+            "staff": 18,
+            "clients": 31,
+            "arr": 363990.0
+        },
+        {
+            "date": "2022-08",
+            "revenues": 31522.88,
+            "cash_eop": 96798.74,
+            "ebitda": -641.69,
+            "runway_months": 150.85,
+            "staff": 18,
+            "clients": 32,
+            "arr": 378274.61
+        },
+        {
+            "date": "2022-09",
+            "revenues": 32732.63,
+            "cash_eop": 91925.91,
+            "ebitda": -4872.83,
+            "runway_months": 18.87,
+            "staff": 18,
+            "clients": 33,
+            "arr": 392791.53
+        },
+        {
+            "date": "2022-10",
+            "revenues": 33898.85,
+            "cash_eop": 87410.9,
+            "ebitda": -4515.01,
+            "runway_months": 19.36,
+            "staff": 18,
+            "clients": 34,
+            "arr": 406786.22
+        },
+        {
+            "date": "2022-11",
+            "revenues": 34843.2,
+            "cash_eop": 92301.37,
+            "ebitda": 4890.47,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 34,
+            "arr": 418118.41
+        },
+        {
+            "date": "2022-12",
+            "revenues": 36564.78,
+            "cash_eop": 92161.68,
+            "ebitda": -139.69,
+            "runway_months": 659.75,
+            "staff": 18,
+            "clients": 35,
+            "arr": 438777.39
+        },
+        {
+            "date": "2023-01",
+            "revenues": 38223.39,
+            "cash_eop": 93345.86,
+            "ebitda": 1184.18,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 36,
+            "arr": 458680.63
+        },
+        {
+            "date": "2023-02",
+            "revenues": 40003.87,
+            "cash_eop": 99352.64,
+            "ebitda": 6006.79,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 37,
+            "arr": 480046.47
+        },
+        {
+            "date": "2023-03",
+            "revenues": 41448.26,
+            "cash_eop": 93904.19,
+            "ebitda": -5448.45,
+            "runway_months": 17.24,
+            "staff": 18,
+            "clients": 38,
+            "arr": 497379.16
+        },
+        {
+            "date": "2023-04",
+            "revenues": 42895.24,
+            "cash_eop": 95560.06,
+            "ebitda": 1655.87,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 39,
+            "arr": 514742.88
+        },
+        {
+            "date": "2023-05",
+            "revenues": 44829.58,
+            "cash_eop": 96622.38,
+            "ebitda": 1062.32,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 40,
+            "arr": 537954.95
+        },
+        {
+            "date": "2023-06",
+            "revenues": 45827.29,
+            "cash_eop": 98634.36,
+            "ebitda": 2011.98,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 40,
+            "arr": 549927.52
+        },
+        {
+            "date": "2023-07",
+            "revenues": 46580.31,
+            "cash_eop": 105980.26,
+            "ebitda": 7345.9,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 40,
+            "arr": 558963.77
+        },
+        {
+            "date": "2023-08",
+            "revenues": 48087.27,
+            "cash_eop": 100325.71,
+            "ebitda": -5654.55,
+            "runway_months": 17.74,
+            "staff": 18,
+            "clients": 41,
+            "arr": 577047.26
+        },
+        {
+            "date": "2023-09",
+            "revenues": 49600.86,
+            "cash_eop": 100891.33,
+            "ebitda": 565.63,
+            "runway_months": "infinite",
+            "staff": 18,
+            "clients": 42,
+            "arr": 595210.29
+        },
+        {
+            "date": "2023-10",
+            "revenues": 50993.79,
+            "cash_eop": 96914.08,
+            "ebitda": -3977.25,
+            "runway_months": 24.37,
+            "staff": 18,
+            "clients": 43,
+            "arr": 611925.48
+        },
+        {
+            "date": "2023-11",
+            "revenues": 53421.15,
+            "cash_eop": 91551.93,
+            "ebitda": -5362.16,
+            "runway_months": 17.07,
+            "staff": 18,
+            "clients": 45,
+            "arr": 641053.86
+        }
+    ],
+    "Decliner1": [
+        {
+            "date": "2019-01",
+            "revenues": 7391.15,
+            "cash_eop": 129532.87,
+            "ebitda": -1438.35,
+            "runway_months": 90.06,
+            "staff": 8,
+            "clients": 37,
+            "arr": 88693.79
+        },
+        {
+            "date": "2019-01",
+            "revenues": 6912.01,
+            "cash_eop": 129382.43,
+            "ebitda": -150.44,
+            "runway_months": 860.01,
+            "staff": 7,
+            "clients": 34,
+            "arr": 82944.09
+        },
+        {
+            "date": "2019-03",
+            "revenues": 6499.95,
+            "cash_eop": 129373.53,
+            "ebitda": -8.9,
+            "runway_months": 14536.55,
+            "staff": 6,
+            "clients": 31,
+            "arr": 77999.36
+        },
+        {
+            "date": "2019-04",
+            "revenues": 6143.05,
+            "cash_eop": 129860.22,
+            "ebitda": 486.7,
+            "runway_months": "infinite",
+            "staff": 5,
+            "clients": 29,
+            "arr": 73716.59
+        },
+        {
+            "date": "2019-05",
+            "revenues": 5627.21,
+            "cash_eop": 129546.22,
+            "ebitda": -314.01,
+            "runway_months": 412.56,
+            "staff": 4,
+            "clients": 26,
+            "arr": 67526.57
+        },
+        {
+            "date": "2019-05",
+            "revenues": 4885.62,
+            "cash_eop": 129593.8,
+            "ebitda": 47.58,
+            "runway_months": "infinite",
+            "staff": 3,
+            "clients": 22,
+            "arr": 58627.49
+        },
+        {
+            "date": "2019-06",
+            "revenues": 4167.9,
+            "cash_eop": 128880.24,
+            "ebitda": -713.55,
+            "runway_months": 180.62,
+            "staff": 2,
+            "clients": 18,
+            "arr": 50014.78
+        },
+        {
+            "date": "2019-07",
+            "revenues": 3553.44,
+            "cash_eop": 128182.26,
+            "ebitda": -697.99,
+            "runway_months": 183.65,
+            "staff": 1,
+            "clients": 15,
+            "arr": 42641.27
+        },
+        {
+            "date": "2019-08",
+            "revenues": 3313.73,
+            "cash_eop": 128087.49,
+            "ebitda": -94.77,
+            "runway_months": 1351.52,
+            "staff": 1,
+            "clients": 13,
+            "arr": 39764.8
+        },
+        {
+            "date": "2019-09",
+            "revenues": 2909.01,
+            "cash_eop": 127911.46,
+            "ebitda": -176.02,
+            "runway_months": 726.67,
+            "staff": 1,
+            "clients": 11,
+            "arr": 34908.15
+        },
+        {
+            "date": "2019-10",
+            "revenues": 2544.51,
+            "cash_eop": 127793.64,
+            "ebitda": -117.82,
+            "runway_months": 1084.68,
+            "staff": 1,
+            "clients": 9,
+            "arr": 30534.09
+        },
+        {
+            "date": "2019-11",
+            "revenues": 2259.57,
+            "cash_eop": 127944.45,
+            "ebitda": 150.81,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 7,
+            "arr": 27114.88
+        },
+        {
+            "date": "2019-12",
+            "revenues": 1985.58,
+            "cash_eop": 127748.99,
+            "ebitda": -195.46,
+            "runway_months": 653.57,
+            "staff": 1,
+            "clients": 6,
+            "arr": 23827.01
+        },
+        {
+            "date": "2020-01",
+            "revenues": 1773.58,
+            "cash_eop": 127799.8,
+            "ebitda": 50.81,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 5,
+            "arr": 21282.96
+        },
+        {
+            "date": "2020-02",
+            "revenues": 1648.08,
+            "cash_eop": 127486.71,
+            "ebitda": -313.09,
+            "runway_months": 407.19,
+            "staff": 1,
+            "clients": 4,
+            "arr": 19776.98
+        },
+        {
+            "date": "2020-03",
+            "revenues": 1509.18,
+            "cash_eop": 127553.92,
+            "ebitda": 67.21,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 3,
+            "arr": 18110.1
+        },
+        {
+            "date": "2020-04",
+            "revenues": 1392.61,
+            "cash_eop": 127415.93,
+            "ebitda": -137.99,
+            "runway_months": 923.39,
+            "staff": 1,
+            "clients": 2,
+            "arr": 16711.36
+        },
+        {
+            "date": "2020-05",
+            "revenues": 1204.41,
+            "cash_eop": 127589.66,
+            "ebitda": 173.72,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 1,
+            "arr": 14452.92
+        },
+        {
+            "date": "2020-06",
+            "revenues": 1061.37,
+            "cash_eop": 127507.22,
+            "ebitda": -82.44,
+            "runway_months": 1546.7,
+            "staff": 1,
+            "clients": 0,
+            "arr": 12736.42
+        },
+        {
+            "date": "2020-07",
+            "revenues": 994.7,
+            "cash_eop": 127372.72,
+            "ebitda": -134.5,
+            "runway_months": 947.03,
+            "staff": 1,
+            "clients": 0,
+            "arr": 11936.36
+        },
+        {
+            "date": "2020-08",
+            "revenues": 846.74,
+            "cash_eop": 127524.1,
+            "ebitda": 151.38,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 10160.92
+        },
+        {
+            "date": "2020-09",
+            "revenues": 788.54,
+            "cash_eop": 127559.5,
+            "ebitda": 35.4,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 9462.49
+        },
+        {
+            "date": "2020-10",
+            "revenues": 689.91,
+            "cash_eop": 127565.85,
+            "ebitda": 6.35,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 8278.88
+        },
+        {
+            "date": "2020-11",
+            "revenues": 596.03,
+            "cash_eop": 127537.63,
+            "ebitda": -28.22,
+            "runway_months": 4518.95,
+            "staff": 1,
+            "clients": 0,
+            "arr": 7152.34
+        },
+        {
+            "date": "2020-12",
+            "revenues": 558.38,
+            "cash_eop": 127609.58,
+            "ebitda": 71.95,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 6700.59
+        },
+        {
+            "date": "2021-01",
+            "revenues": 480.94,
+            "cash_eop": 127676.23,
+            "ebitda": 66.65,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 5771.24
+        },
+        {
+            "date": "2021-02",
+            "revenues": 447.67,
+            "cash_eop": 127677.69,
+            "ebitda": 1.46,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 5371.98
+        },
+        {
+            "date": "2021-03",
+            "revenues": 385.32,
+            "cash_eop": 127661.23,
+            "ebitda": -16.46,
+            "runway_months": 7755.35,
+            "staff": 1,
+            "clients": 0,
+            "arr": 4623.83
+        },
+        {
+            "date": "2021-04",
+            "revenues": 331.29,
+            "cash_eop": 127647.68,
+            "ebitda": -13.55,
+            "runway_months": 9418.49,
+            "staff": 1,
+            "clients": 0,
+            "arr": 3975.52
+        },
+        {
+            "date": "2021-05",
+            "revenues": 313.19,
+            "cash_eop": 127602.45,
+            "ebitda": -45.23,
+            "runway_months": 2821.14,
+            "staff": 1,
+            "clients": 0,
+            "arr": 3758.34
+        },
+        {
+            "date": "2021-06",
+            "revenues": 273.8,
+            "cash_eop": 127611.66,
+            "ebitda": 9.21,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 3285.56
+        },
+        {
+            "date": "2021-07",
+            "revenues": 239.05,
+            "cash_eop": 127630.75,
+            "ebitda": 19.09,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 2868.65
+        },
+        {
+            "date": "2021-08",
+            "revenues": 205.37,
+            "cash_eop": 127601.44,
+            "ebitda": -29.31,
+            "runway_months": 4352.99,
+            "staff": 1,
+            "clients": 0,
+            "arr": 2464.47
+        },
+        {
+            "date": "2021-09",
+            "revenues": 192.97,
+            "cash_eop": 127565.71,
+            "ebitda": -35.73,
+            "runway_months": 3570.64,
+            "staff": 1,
+            "clients": 0,
+            "arr": 2315.64
+        },
+        {
+            "date": "2021-10",
+            "revenues": 180.24,
+            "cash_eop": 127543.45,
+            "ebitda": -22.26,
+            "runway_months": 5728.93,
+            "staff": 1,
+            "clients": 0,
+            "arr": 2162.91
+        },
+        {
+            "date": "2021-11",
+            "revenues": 159.44,
+            "cash_eop": 127516.46,
+            "ebitda": -26.99,
+            "runway_months": 4724.7,
+            "staff": 1,
+            "clients": 0,
+            "arr": 1913.24
+        },
+        {
+            "date": "2021-12",
+            "revenues": 136.01,
+            "cash_eop": 127516.68,
+            "ebitda": 0.23,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 1632.11
+        },
+        {
+            "date": "2022-01",
+            "revenues": 117.86,
+            "cash_eop": 127538.68,
+            "ebitda": 21.99,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 1414.27
+        },
+        {
+            "date": "2022-02",
+            "revenues": 100.3,
+            "cash_eop": 127522.62,
+            "ebitda": -16.06,
+            "runway_months": 7941.62,
+            "staff": 1,
+            "clients": 0,
+            "arr": 1203.58
+        },
+        {
+            "date": "2022-03",
+            "revenues": 95.01,
+            "cash_eop": 127529.11,
+            "ebitda": 6.49,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 1140.16
+        },
+        {
+            "date": "2022-04",
+            "revenues": 87.45,
+            "cash_eop": 127546.22,
+            "ebitda": 17.11,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 1049.38
+        },
+        {
+            "date": "2022-05",
+            "revenues": 82.44,
+            "cash_eop": 127546.76,
+            "ebitda": 0.54,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 989.3
+        },
+        {
+            "date": "2022-06",
+            "revenues": 73.72,
+            "cash_eop": 127532.82,
+            "ebitda": -13.93,
+            "runway_months": 9153.74,
+            "staff": 1,
+            "clients": 0,
+            "arr": 884.58
+        },
+        {
+            "date": "2022-07",
+            "revenues": 68.47,
+            "cash_eop": 127539.86,
+            "ebitda": 7.04,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 821.58
+        },
+        {
+            "date": "2022-08",
+            "revenues": 62.45,
+            "cash_eop": 127528.38,
+            "ebitda": -11.49,
+            "runway_months": 11102.88,
+            "staff": 1,
+            "clients": 0,
+            "arr": 749.34
+        },
+        {
+            "date": "2022-09",
+            "revenues": 56.67,
+            "cash_eop": 127532.94,
+            "ebitda": 4.56,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 680.04
+        },
+        {
+            "date": "2022-10",
+            "revenues": 51.55,
+            "cash_eop": 127538.35,
+            "ebitda": 5.41,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 618.6
+        },
+        {
+            "date": "2022-11",
+            "revenues": 45.82,
+            "cash_eop": 127531.74,
+            "ebitda": -6.61,
+            "runway_months": 19281.19,
+            "staff": 1,
+            "clients": 0,
+            "arr": 549.81
+        },
+        {
+            "date": "2022-12",
+            "revenues": 42.14,
+            "cash_eop": 127535.94,
+            "ebitda": 4.21,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 505.64
+        },
+        {
+            "date": "2023-01",
+            "revenues": 39.45,
+            "cash_eop": 127533.03,
+            "ebitda": -2.92,
+            "runway_months": 43712.73,
+            "staff": 1,
+            "clients": 0,
+            "arr": 473.38
+        },
+        {
+            "date": "2023-02",
+            "revenues": 35.18,
+            "cash_eop": 127528.52,
+            "ebitda": -4.5,
+            "runway_months": 28317.65,
+            "staff": 1,
+            "clients": 0,
+            "arr": 422.13
+        },
+        {
+            "date": "2023-03",
+            "revenues": 32.17,
+            "cash_eop": 127523.69,
+            "ebitda": -4.83,
+            "runway_months": 26404.92,
+            "staff": 1,
+            "clients": 0,
+            "arr": 386.03
+        },
+        {
+            "date": "2023-04",
+            "revenues": 27.57,
+            "cash_eop": 127518.89,
+            "ebitda": -4.81,
+            "runway_months": 26519.86,
+            "staff": 1,
+            "clients": 0,
+            "arr": 330.86
+        },
+        {
+            "date": "2023-05",
+            "revenues": 24.87,
+            "cash_eop": 127514.86,
+            "ebitda": -4.02,
+            "runway_months": 31698.62,
+            "staff": 1,
+            "clients": 0,
+            "arr": 298.46
+        },
+        {
+            "date": "2023-06",
+            "revenues": 21.73,
+            "cash_eop": 127514.96,
+            "ebitda": 0.1,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 260.72
+        },
+        {
+            "date": "2023-07",
+            "revenues": 20.44,
+            "cash_eop": 127514.17,
+            "ebitda": -0.78,
+            "runway_months": 162483.85,
+            "staff": 1,
+            "clients": 0,
+            "arr": 245.24
+        },
+        {
+            "date": "2023-08",
+            "revenues": 17.79,
+            "cash_eop": 127512.83,
+            "ebitda": -1.34,
+            "runway_months": 94917.25,
+            "staff": 1,
+            "clients": 0,
+            "arr": 213.53
+        },
+        {
+            "date": "2023-09",
+            "revenues": 16.32,
+            "cash_eop": 127510.34,
+            "ebitda": -2.49,
+            "runway_months": 51235.42,
+            "staff": 1,
+            "clients": 0,
+            "arr": 195.83
+        },
+        {
+            "date": "2023-10",
+            "revenues": 14.31,
+            "cash_eop": 127513.03,
+            "ebitda": 2.69,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 171.76
+        },
+        {
+            "date": "2023-11",
+            "revenues": 13.39,
+            "cash_eop": 127515.27,
+            "ebitda": 2.24,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 160.68
+        }
+    ],
+    "Decliner2": [
+        {
+            "date": "2019-01",
+            "revenues": 7632.52,
+            "cash_eop": 176715.04,
+            "ebitda": -8.65,
+            "runway_months": 20431.33,
+            "staff": 10,
+            "clients": 28,
+            "arr": 91590.24
+        },
+        {
+            "date": "2019-01",
+            "revenues": 6598.29,
+            "cash_eop": 175942.39,
+            "ebitda": -772.65,
+            "runway_months": 227.71,
+            "staff": 8,
+            "clients": 24,
+            "arr": 79179.46
+        },
+        {
+            "date": "2019-03",
+            "revenues": 6141.75,
+            "cash_eop": 175800.88,
+            "ebitda": -141.51,
+            "runway_months": 1242.31,
+            "staff": 7,
+            "clients": 22,
+            "arr": 73700.95
+        },
+        {
+            "date": "2019-04",
+            "revenues": 5260.91,
+            "cash_eop": 174992.03,
+            "ebitda": -808.85,
+            "runway_months": 216.35,
+            "staff": 5,
+            "clients": 18,
+            "arr": 63130.9
+        },
+        {
+            "date": "2019-05",
+            "revenues": 4820.64,
+            "cash_eop": 174456.07,
+            "ebitda": -535.96,
+            "runway_months": 325.5,
+            "staff": 4,
+            "clients": 16,
+            "arr": 57847.66
+        },
+        {
+            "date": "2019-05",
+            "revenues": 4127.84,
+            "cash_eop": 173883.46,
+            "ebitda": -572.6,
+            "runway_months": 303.67,
+            "staff": 3,
+            "clients": 13,
+            "arr": 49534.09
+        },
+        {
+            "date": "2019-06",
+            "revenues": 3899.12,
+            "cash_eop": 173467.09,
+            "ebitda": -416.37,
+            "runway_months": 416.61,
+            "staff": 2,
+            "clients": 12,
+            "arr": 46789.41
+        },
+        {
+            "date": "2019-07",
+            "revenues": 3671.13,
+            "cash_eop": 172851.55,
+            "ebitda": -615.54,
+            "runway_months": 280.81,
+            "staff": 1,
+            "clients": 11,
+            "arr": 44053.55
+        },
+        {
+            "date": "2019-08",
+            "revenues": 3408.52,
+            "cash_eop": 172719.5,
+            "ebitda": -132.04,
+            "runway_months": 1308.04,
+            "staff": 1,
+            "clients": 10,
+            "arr": 40902.26
+        },
+        {
+            "date": "2019-09",
+            "revenues": 3052.69,
+            "cash_eop": 172607.84,
+            "ebitda": -111.66,
+            "runway_months": 1545.81,
+            "staff": 1,
+            "clients": 8,
+            "arr": 36632.33
+        },
+        {
+            "date": "2019-10",
+            "revenues": 2833.64,
+            "cash_eop": 172830.75,
+            "ebitda": 222.91,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 7,
+            "arr": 34003.7
+        },
+        {
+            "date": "2019-11",
+            "revenues": 2653.41,
+            "cash_eop": 173242.36,
+            "ebitda": 411.6,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 6,
+            "arr": 31840.96
+        },
+        {
+            "date": "2019-12",
+            "revenues": 2430.65,
+            "cash_eop": 172825.64,
+            "ebitda": -416.71,
+            "runway_months": 414.74,
+            "staff": 1,
+            "clients": 5,
+            "arr": 29167.86
+        },
+        {
+            "date": "2020-01",
+            "revenues": 2266.27,
+            "cash_eop": 172520.33,
+            "ebitda": -305.31,
+            "runway_months": 565.06,
+            "staff": 1,
+            "clients": 4,
+            "arr": 27195.24
+        },
+        {
+            "date": "2020-02",
+            "revenues": 2098.08,
+            "cash_eop": 172557.62,
+            "ebitda": 37.29,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 3,
+            "arr": 25176.99
+        },
+        {
+            "date": "2020-03",
+            "revenues": 1984.31,
+            "cash_eop": 172722.74,
+            "ebitda": 165.12,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 2,
+            "arr": 23811.76
+        },
+        {
+            "date": "2020-04",
+            "revenues": 1750.48,
+            "cash_eop": 172986.39,
+            "ebitda": 263.65,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 1,
+            "arr": 21005.7
+        },
+        {
+            "date": "2020-05",
+            "revenues": 1644.56,
+            "cash_eop": 173099.24,
+            "ebitda": 112.84,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 19734.71
+        },
+        {
+            "date": "2020-06",
+            "revenues": 1461.94,
+            "cash_eop": 173030.76,
+            "ebitda": -68.47,
+            "runway_months": 2527.07,
+            "staff": 1,
+            "clients": 0,
+            "arr": 17543.31
+        },
+        {
+            "date": "2020-07",
+            "revenues": 1285.58,
+            "cash_eop": 172888.67,
+            "ebitda": -142.09,
+            "runway_months": 1216.72,
+            "staff": 1,
+            "clients": 0,
+            "arr": 15426.93
+        },
+        {
+            "date": "2020-08",
+            "revenues": 1094.21,
+            "cash_eop": 172747.81,
+            "ebitda": -140.86,
+            "runway_months": 1226.34,
+            "staff": 1,
+            "clients": 0,
+            "arr": 13130.55
+        },
+        {
+            "date": "2020-09",
+            "revenues": 980.91,
+            "cash_eop": 172774.54,
+            "ebitda": 26.74,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 11770.95
+        },
+        {
+            "date": "2020-10",
+            "revenues": 841.41,
+            "cash_eop": 172872.66,
+            "ebitda": 98.12,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 10096.88
+        },
+        {
+            "date": "2020-11",
+            "revenues": 760.77,
+            "cash_eop": 172990.03,
+            "ebitda": 117.37,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 9129.26
+        },
+        {
+            "date": "2020-12",
+            "revenues": 710.62,
+            "cash_eop": 173112.67,
+            "ebitda": 122.64,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 8527.43
+        },
+        {
+            "date": "2021-01",
+            "revenues": 626.91,
+            "cash_eop": 173183.03,
+            "ebitda": 70.35,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 7522.89
+        },
+        {
+            "date": "2021-02",
+            "revenues": 554.91,
+            "cash_eop": 173106.82,
+            "ebitda": -76.21,
+            "runway_months": 2271.49,
+            "staff": 1,
+            "clients": 0,
+            "arr": 6658.96
+        },
+        {
+            "date": "2021-03",
+            "revenues": 475.72,
+            "cash_eop": 173114.07,
+            "ebitda": 7.25,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 5708.69
+        },
+        {
+            "date": "2021-04",
+            "revenues": 417.12,
+            "cash_eop": 173066.19,
+            "ebitda": -47.87,
+            "runway_months": 3615.24,
+            "staff": 1,
+            "clients": 0,
+            "arr": 5005.46
+        },
+        {
+            "date": "2021-05",
+            "revenues": 363.9,
+            "cash_eop": 173126.57,
+            "ebitda": 60.37,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 4366.76
+        },
+        {
+            "date": "2021-06",
+            "revenues": 338.46,
+            "cash_eop": 173089.87,
+            "ebitda": -36.69,
+            "runway_months": 4717.35,
+            "staff": 1,
+            "clients": 0,
+            "arr": 4061.5
+        },
+        {
+            "date": "2021-07",
+            "revenues": 299.74,
+            "cash_eop": 173137.37,
+            "ebitda": 47.49,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 3596.85
+        },
+        {
+            "date": "2021-08",
+            "revenues": 278.19,
+            "cash_eop": 173160.19,
+            "ebitda": 22.82,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 3338.33
+        },
+        {
+            "date": "2021-09",
+            "revenues": 246.86,
+            "cash_eop": 173177.0,
+            "ebitda": 16.81,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 2962.37
+        },
+        {
+            "date": "2021-10",
+            "revenues": 215.07,
+            "cash_eop": 173137.5,
+            "ebitda": -39.5,
+            "runway_months": 4383.09,
+            "staff": 1,
+            "clients": 0,
+            "arr": 2580.9
+        },
+        {
+            "date": "2021-11",
+            "revenues": 199.66,
+            "cash_eop": 173135.22,
+            "ebitda": -2.27,
+            "runway_months": 76133.1,
+            "staff": 1,
+            "clients": 0,
+            "arr": 2395.86
+        },
+        {
+            "date": "2021-12",
+            "revenues": 188.13,
+            "cash_eop": 173158.76,
+            "ebitda": 23.53,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 2257.57
+        },
+        {
+            "date": "2022-01",
+            "revenues": 176.97,
+            "cash_eop": 173140.86,
+            "ebitda": -17.9,
+            "runway_months": 9674.25,
+            "staff": 1,
+            "clients": 0,
+            "arr": 2123.58
+        },
+        {
+            "date": "2022-02",
+            "revenues": 161.93,
+            "cash_eop": 173146.18,
+            "ebitda": 5.32,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 1943.13
+        },
+        {
+            "date": "2022-03",
+            "revenues": 147.4,
+            "cash_eop": 173140.33,
+            "ebitda": -5.84,
+            "runway_months": 29629.51,
+            "staff": 1,
+            "clients": 0,
+            "arr": 1768.75
+        },
+        {
+            "date": "2022-04",
+            "revenues": 127.85,
+            "cash_eop": 173138.85,
+            "ebitda": -1.49,
+            "runway_months": 116455.16,
+            "staff": 1,
+            "clients": 0,
+            "arr": 1534.2
+        },
+        {
+            "date": "2022-05",
+            "revenues": 113.08,
+            "cash_eop": 173131.05,
+            "ebitda": -7.8,
+            "runway_months": 22203.94,
+            "staff": 1,
+            "clients": 0,
+            "arr": 1356.96
+        },
+        {
+            "date": "2022-06",
+            "revenues": 99.88,
+            "cash_eop": 173118.47,
+            "ebitda": -12.58,
+            "runway_months": 13759.31,
+            "staff": 1,
+            "clients": 0,
+            "arr": 1198.52
+        },
+        {
+            "date": "2022-07",
+            "revenues": 90.72,
+            "cash_eop": 173113.33,
+            "ebitda": -5.13,
+            "runway_months": 33732.71,
+            "staff": 1,
+            "clients": 0,
+            "arr": 1088.7
+        },
+        {
+            "date": "2022-08",
+            "revenues": 80.43,
+            "cash_eop": 173122.78,
+            "ebitda": 9.44,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 965.19
+        },
+        {
+            "date": "2022-09",
+            "revenues": 69.79,
+            "cash_eop": 173116.21,
+            "ebitda": -6.57,
+            "runway_months": 26360.14,
+            "staff": 1,
+            "clients": 0,
+            "arr": 837.46
+        },
+        {
+            "date": "2022-10",
+            "revenues": 60.38,
+            "cash_eop": 173122.53,
+            "ebitda": 6.32,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 724.55
+        },
+        {
+            "date": "2022-11",
+            "revenues": 56.96,
+            "cash_eop": 173125.56,
+            "ebitda": 3.03,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 683.49
+        },
+        {
+            "date": "2022-12",
+            "revenues": 51.62,
+            "cash_eop": 173118.8,
+            "ebitda": -6.75,
+            "runway_months": 25628.4,
+            "staff": 1,
+            "clients": 0,
+            "arr": 619.46
+        },
+        {
+            "date": "2023-01",
+            "revenues": 47.44,
+            "cash_eop": 173122.12,
+            "ebitda": 3.31,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 569.23
+        },
+        {
+            "date": "2023-02",
+            "revenues": 42.99,
+            "cash_eop": 173129.45,
+            "ebitda": 7.33,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 515.85
+        },
+        {
+            "date": "2023-03",
+            "revenues": 37.42,
+            "cash_eop": 173125.86,
+            "ebitda": -3.59,
+            "runway_months": 48198.86,
+            "staff": 1,
+            "clients": 0,
+            "arr": 449.01
+        },
+        {
+            "date": "2023-04",
+            "revenues": 34.05,
+            "cash_eop": 173124.0,
+            "ebitda": -1.85,
+            "runway_months": 93547.43,
+            "staff": 1,
+            "clients": 0,
+            "arr": 408.6
+        },
+        {
+            "date": "2023-05",
+            "revenues": 29.55,
+            "cash_eop": 173120.19,
+            "ebitda": -3.82,
+            "runway_months": 45363.37,
+            "staff": 1,
+            "clients": 0,
+            "arr": 354.57
+        },
+        {
+            "date": "2023-06",
+            "revenues": 26.34,
+            "cash_eop": 173117.63,
+            "ebitda": -2.56,
+            "runway_months": 67574.46,
+            "staff": 1,
+            "clients": 0,
+            "arr": 316.11
+        },
+        {
+            "date": "2023-07",
+            "revenues": 24.28,
+            "cash_eop": 173117.72,
+            "ebitda": 0.1,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 291.33
+        },
+        {
+            "date": "2023-08",
+            "revenues": 20.65,
+            "cash_eop": 173116.19,
+            "ebitda": -1.54,
+            "runway_months": 112533.16,
+            "staff": 1,
+            "clients": 0,
+            "arr": 247.76
+        },
+        {
+            "date": "2023-09",
+            "revenues": 17.88,
+            "cash_eop": 173119.69,
+            "ebitda": 3.5,
+            "runway_months": "infinite",
+            "staff": 1,
+            "clients": 0,
+            "arr": 214.55
+        },
+        {
+            "date": "2023-10",
+            "revenues": 15.41,
+            "cash_eop": 173116.99,
+            "ebitda": -2.7,
+            "runway_months": 64004.99,
+            "staff": 1,
+            "clients": 0,
+            "arr": 184.87
+        },
+        {
+            "date": "2023-11",
+            "revenues": 13.67,
+            "cash_eop": 173116.41,
+            "ebitda": -0.58,
+            "runway_months": 299352.92,
+            "staff": 1,
+            "clients": 0,
+            "arr": 164.08
+        }
+    ]
+}
