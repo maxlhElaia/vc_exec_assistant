@@ -6,7 +6,8 @@ class Company(BaseModel):
 
 class Signal(BaseModel):
     id: str
-    trigger: datetime.datetime
+    start_time: datetime.datetime
+    end_time: datetime.datetime
     # signaltype: str
     title: str
     description: str

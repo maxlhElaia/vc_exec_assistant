@@ -16,7 +16,8 @@ def generate_signals() -> typing.Iterable[Signal]:
 
         signal = HeadcountChangeSignal(
             id=str(i),
-            trigger=datetime.datetime.now(),
+            start_time=datetime.datetime.now(),
+            end_time=datetime.datetime.now(),
             title='',
             description='',
             company=company.model_dump(),
