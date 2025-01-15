@@ -1,4 +1,3 @@
-from abc import ABC
 import datetime
 from pydantic import BaseModel
 
@@ -27,6 +26,3 @@ class Company:
     industry: str
     location: str
 
-class Agent(ABC):
-    def process_signals(self, signals: list[Signal]) -> list[Action]
-        raise NotImplemented()
