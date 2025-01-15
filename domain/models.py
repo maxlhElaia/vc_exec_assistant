@@ -76,6 +76,7 @@ class CommentAction(Action):
     pass
 
 class ShareOrRepostAction(Action):
+    pass
 
 class Contact(BaseModel):
     name: str
