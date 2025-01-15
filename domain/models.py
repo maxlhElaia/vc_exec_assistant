@@ -12,6 +12,10 @@ class Signal(BaseModel):
     description: str
     company: Company
 
+class HeadcountChangeSignal(Signal):
+    headcount_new: int
+    headcount_old: int 
+
 class Action(BaseModel):
     signal: Signal
     title: str
@@ -19,7 +23,7 @@ class Action(BaseModel):
     url: str|None
     score: float
 
-class Company:
+class Company(BaseModel):
     name: str
     domain: str
     description: str
