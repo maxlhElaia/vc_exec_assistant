@@ -1,0 +1,182 @@
+[
+  {
+    "id": "headcount_change_20th-century-studios",
+    "start_time": "2024-06-13T11:50:18.329127",
+    "end_time": "2025-01-15T17:19:35.182354",
+    "title": "Headcount Change",
+    "description": "The headcount of the company has changed",
+    "company": {
+      "name": "startupradar",
+      "domain": "startupradar.co",
+      "linkedin_url": "https://linkedin.com/company/startupradar",
+      "description": "very great company",
+      "industry": "data analysis",
+      "location": "Berlin, Germany",
+      "primary_contact": null
+    },
+    "followercount_new": 382628,
+    "followercount_old": 383004
+  },
+  {
+    "id": "headcount_change_20th-century-studios",
+    "start_time": "2024-10-14T02:13:43.172932",
+    "end_time": "2025-01-15T17:19:35.182354",
+    "title": "Headcount Change",
+    "description": "The headcount of the company has changed",
+    "company": {
+      "name": "startupradar",
+      "domain": "startupradar.co",
+      "linkedin_url": "https://linkedin.com/company/startupradar",
+      "description": "very great company",
+      "industry": "data analysis",
+      "location": "Berlin, Germany",
+      "primary_contact": null
+    },
+    "followercount_new": 382628,
+    "followercount_old": 382912
+  },
+  {
+    "id": "headcount_change_3146632",
+    "start_time": "2024-06-13T11:50:18.329127",
+    "end_time": "2025-01-15T17:19:35.182354",
+    "title": "Headcount Change",
+    "description": "The headcount of the company has changed",
+    "company": {
+      "name": "startupradar",
+      "domain": "startupradar.co",
+      "linkedin_url": "https://linkedin.com/company/startupradar",
+      "description": "very great company",
+      "industry": "data analysis",
+      "location": "Berlin, Germany",
+      "primary_contact": null
+    },
+    "followercount_new": 382628,
+    "followercount_old": 383004
+  },
+  {
+    "id": "headcount_change_3146632",
+    "start_time": "2024-10-14T02:13:43.172932",
+    "end_time": "2025-01-15T17:19:35.182354",
+    "title": "Headcount Change",
+    "description": "The headcount of the company has changed",
+    "company": {
+      "name": "startupradar",
+      "domain": "startupradar.co",
+      "linkedin_url": "https://linkedin.com/company/startupradar",
+      "description": "very great company",
+      "industry": "data analysis",
+      "location": "Berlin, Germany",
+      "primary_contact": null
+    },
+    "followercount_new": 382628,
+    "followercount_old": 382912
+  },
+  {
+    "id": "headcount_change_209469",
+    "start_time": "2024-06-13T08:28:24.489033",
+    "end_time": "2025-01-15T17:19:33.104896",
+    "title": "Headcount Change",
+    "description": "The headcount of the company has changed",
+    "company": {
+      "name": "startupradar",
+      "domain": "startupradar.co",
+      "linkedin_url": "https://linkedin.com/company/startupradar",
+      "description": "very great company",
+      "industry": "data analysis",
+      "location": "Berlin, Germany",
+      "primary_contact": null
+    },
+    "followercount_new": 255,
+    "followercount_old": 247
+  },
+  {
+    "id": "headcount_change_209469",
+    "start_time": "2024-10-14T05:23:44.787306",
+    "end_time": "2025-01-15T17:19:33.104896",
+    "title": "Headcount Change",
+    "description": "The headcount of the company has changed",
+    "company": {
+      "name": "startupradar",
+      "domain": "startupradar.co",
+      "linkedin_url": "https://linkedin.com/company/startupradar",
+      "description": "very great company",
+      "industry": "data analysis",
+      "location": "Berlin, Germany",
+      "primary_contact": null
+    },
+    "followercount_new": 255,
+    "followercount_old": 255
+  },
+  {
+    "id": "headcount_change_disputesoft",
+    "start_time": "2024-06-13T08:28:24.489033",
+    "end_time": "2025-01-15T17:19:33.104896",
+    "title": "Headcount Change",
+    "description": "The headcount of the company has changed",
+    "company": {
+      "name": "startupradar",
+      "domain": "startupradar.co",
+      "linkedin_url": "https://linkedin.com/company/startupradar",
+      "description": "very great company",
+      "industry": "data analysis",
+      "location": "Berlin, Germany",
+      "primary_contact": null
+    },
+    "followercount_new": 255,
+    "followercount_old": 247
+  },
+  {
+    "id": "headcount_change_disputesoft",
+    "start_time": "2024-10-14T05:23:44.787306",
+    "end_time": "2025-01-15T17:19:33.104896",
+    "title": "Headcount Change",
+    "description": "The headcount of the company has changed",
+    "company": {
+      "name": "startupradar",
+      "domain": "startupradar.co",
+      "linkedin_url": "https://linkedin.com/company/startupradar",
+      "description": "very great company",
+      "industry": "data analysis",
+      "location": "Berlin, Germany",
+      "primary_contact": null
+    },
+    "followercount_new": 255,
+    "followercount_old": 255
+  },
+  {
+    "id": "headcount_change_72329559",
+    "start_time": "2024-06-13T16:21:36.333665",
+    "end_time": "2025-01-15T17:19:31.034362",
+    "title": "Headcount Change",
+    "description": "The headcount of the company has changed",
+    "company": {
+      "name": "startupradar",
+      "domain": "startupradar.co",
+      "linkedin_url": "https://linkedin.com/company/startupradar",
+      "description": "very great company",
+      "industry": "data analysis",
+      "location": "Berlin, Germany",
+      "primary_contact": null
+    },
+    "followercount_new": 1420,
+    "followercount_old": 1018
+  },
+  {
+    "id": "headcount_change_72329559",
+    "start_time": "2024-10-14T02:49:29.043518",
+    "end_time": "2025-01-15T17:19:31.034362",
+    "title": "Headcount Change",
+    "description": "The headcount of the company has changed",
+    "company": {
+      "name": "startupradar",
+      "domain": "startupradar.co",
+      "linkedin_url": "https://linkedin.com/company/startupradar",
+      "description": "very great company",
+      "industry": "data analysis",
+      "location": "Berlin, Germany",
+      "primary_contact": null
+    },
+    "followercount_new": 1420,
+    "followercount_old": 1373
+  }
+]
