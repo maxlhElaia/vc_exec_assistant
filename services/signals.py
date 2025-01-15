@@ -1,6 +1,12 @@
+from dataclasses import dataclass
 import datetime
+import json
 import typing
 from domain.models import Company, HeadcountChangeSignal, PressMentionSignal, Signal
+
+import psycopg2
+from domain.models import Company, HeadcountChangeSignal, Signal
+from services.companies import generate_companies
 
 
 def generate_signals() -> typing.Iterable[Signal]:
@@ -24,6 +30,7 @@ def generate_signals() -> typing.Iterable[Signal]:
             headcount_old=i,
             headcount_new=i+5
         )
+        yield signal
 
         signal = PressMentionSignal(
             id=str(i),
