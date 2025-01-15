@@ -8,3 +8,10 @@ Data-Driven Hackathon
 > This project was built as part of the Data-Driven VC Hackathon organized by [Red River West](https://redriverwest.com) & [Bivwak! by BNP Paribas](https://bivwak.bnpparibas/)
 
 ## {Description / Instructions / Prerequisites...}
+
+## Installation
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
