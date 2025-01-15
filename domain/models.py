@@ -34,12 +34,24 @@ class ReportingChangeSignal(Signal):
     clients_old: float
     arr_old: float
 
+class PressMentionSignal(Signal):
+    url_link: str
+    plateform: str
+    source_name: str
+    post_date: datetime.datetime
+    # sentiment: str
+    engagement_count: int
+    # tags: list[str]
+
 class Action(BaseModel):
     signal: Signal
     title: str
     description: str
     url: str|None
     score: float
+
+class EngageWithMentionAction(Action):
+    pass
 
 class Contact(BaseModel):
     name: str
