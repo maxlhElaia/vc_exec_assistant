@@ -11,6 +11,7 @@ def generate_signals() -> typing.Iterable[Signal]:
             domain='example.com',
             industry='example',
             location='Paris, France',
+            primary_contact=None,
         )
 
         signal = HeadcountChangeSignal(
