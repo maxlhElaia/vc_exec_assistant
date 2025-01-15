@@ -43,19 +43,20 @@ class PressMentionAgent(Agent):
         
         return completion.choices[0].message.content.strip()
     
-    def get_score(self, signal: PressMentionSignal) -> float:
-        normalized_engagement = min(signal.engagement_count / 1000, 1.0)
+    def get_relevance_score(self, signal: PressMentionSignal) -> float:
+        print("Computing relevance score for signal:", signal.title)
+        normalized_engagement = min(signal.engagement_count / 500, 1.0)
         
         platform_scores = {
-            "LinkedIn": 1.0,
-            "Twitter": 0.8,
-            "Facebook": 0.6,
-            "Other": 0.4
+            "linkedin": 1.0,
+            "twitter": 0.8,
+            "facebook": 0.6,
+            "other": 0.4
         }
         platform_score = platform_scores.get(signal.plateform, 0.4)
         
         days_since_post = (datetime.datetime.now() - signal.post_date).days
-        if days_since_post <= 7:
+        if days_since_post <= 15:
             recency_score = 1.0
         elif days_since_post <= 30:
             recency_score = 0.5
@@ -74,27 +75,39 @@ class PressMentionAgent(Agent):
     def process_signals(self, signals: list[PressMentionSignal]) -> list[Action]:
         actions = []
         for signal in signals:
-            signal_score = self.get_score(signal)
+            signal_score = self.get_relevance_score(signal)
+            print("Relevance score for signal:", signal.title, signal_score)
 
             if signal_score < 0.5:
+                print("Signal is not relevant enough, skipping")
                 continue
 
             output = self.get_completion(signal)
             
             try:
-                # message, score = output.split("- Score:")
                 output = output.replace("- Message:", "").strip()
-                score = float(score.strip())
             except ValueError:
                 output = "An important mention was detected, but the message couldn't be generated."
-                score = 0.5
 
             action = Action(
                 signal=signal,
                 title=f"Press Mention: {signal.title}",
                 description=output,
                 url=signal.url_link,
-                score=score,
+                score=signal_score,
             )
+
+            # Generate 3 types of actions (email, comment, repost)
+            # 1. Email the company with the message
+            action1 = EmailAction(
+                signal=signal,
+                title=f"Press Mention: {signal.title}",
+                description=output,
+                url=signal.url_link,
+                score=signal_score,
+            )
+            # 2. Comment on the post with the message
+            # 3. Repost the post with the message
+
             actions.append(action)            
         return actions

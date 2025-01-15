@@ -69,7 +69,13 @@ class Action(BaseModel):
     url: str|None
     score: float
 
-class EngageWithMentionAction(Action):
+class EmailAction(Action):
+    pass
+
+class CommentAction(Action):
+    pass
+
+class ShareOrRepostAction(Action):
     pass
 
 class Contact(BaseModel):
