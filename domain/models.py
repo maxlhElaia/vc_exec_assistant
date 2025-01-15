@@ -72,11 +72,3 @@ class EngageWithMentionAction(Action):
 class Contact(BaseModel):
     name: str
     email: str
-
-class Company(BaseModel):
-    name: str
-    domain: str
-    description: str
-    industry: str
-    location: str
-    primary_contact: Contact|None
