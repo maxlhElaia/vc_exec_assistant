@@ -2,18 +2,18 @@ import json
 import random  
 from datetime import datetime, timedelta  
   
-# Define company profiles  
+# Define company profiles with consistent growth rates  
 companies = [  
-    {'name': 'FastGrower1', 'profile': 'very_fast_growth'},  
-    {'name': 'FastGrower2', 'profile': 'very_fast_growth'},  
-    {'name': 'UpDown1', 'profile': 'up_down'},  
-    {'name': 'UpDown2', 'profile': 'up_down'},  
-    {'name': 'UpDown3', 'profile': 'up_down'},  
-    {'name': 'SlowGrower1', 'profile': 'slow_growth'},  
-    {'name': 'SlowGrower2', 'profile': 'slow_growth'},  
-    {'name': 'SlowGrower3', 'profile': 'slow_growth'},  
-    {'name': 'Decliner1', 'profile': 'declining'},  
-    {'name': 'Decliner2', 'profile': 'declining'}  
+    {'name': 'FastGrower1', 'profile': 'very_fast_growth', 'growth_rate': 0.10},  
+    {'name': 'FastGrower2', 'profile': 'very_fast_growth', 'growth_rate': 0.12},  
+    {'name': 'UpDown1', 'profile': 'up_down', 'growth_rate': 0.0},  
+    {'name': 'UpDown2', 'profile': 'up_down', 'growth_rate': 0.0},  
+    {'name': 'UpDown3', 'profile': 'up_down', 'growth_rate': 0.0},  
+    {'name': 'SlowGrower1', 'profile': 'slow_growth', 'growth_rate': 0.03},  
+    {'name': 'SlowGrower2', 'profile': 'slow_growth', 'growth_rate': 0.02},  
+    {'name': 'SlowGrower3', 'profile': 'slow_growth', 'growth_rate': 0.01},  
+    {'name': 'Decliner1', 'profile': 'declining', 'growth_rate': -0.05},  
+    {'name': 'Decliner2', 'profile': 'declining', 'growth_rate': -0.07}  
 ]  
   
 # Function to generate synthetic data based on profile  
@@ -23,42 +23,50 @@ def generate_company_data(company):
       
     # Initialize starting values  
     revenue = random.uniform(5000, 10000)  
-    cash = random.uniform(50000, 200000)  # Lower initial cash for decliners  
-    ebitda = revenue * random.uniform(-0.2, 0.2)  
+    cash = random.uniform(50000, 200000)  
     staff = random.randint(5, 20)  
     clients = random.randint(10, 50)  
     arr = revenue * 12  
-  
+      
+    # Assign an initial EBITDA margin that changes slowly over time  
+    if company['profile'] == 'very_fast_growth' or company['profile'] == 'slow_growth':  
+        ebitda_margin = random.uniform(-0.1, 0.1)  # Start close to breakeven  
+    elif company['profile'] == 'up_down':  
+        ebitda_margin = random.uniform(-0.2, 0.2)  
+    elif company['profile'] == 'declining':  
+        ebitda_margin = random.uniform(-0.2, -0.1)  # Likely negative  
+      
     for month in range(60):  
         date = start_date + timedelta(days=30*month)  
-        runway = cash / (-ebitda) if ebitda < 0 else float('inf')  
-  
-        # Modify metrics based on company profile  
-        if company['profile'] == 'very_fast_growth':  
-            growth_multiplier = 1 + random.uniform(0.05, 0.15)  
-        elif company['profile'] == 'slow_growth':  
-            growth_multiplier = 1 + random.uniform(0.01, 0.05)  
-        elif company['profile'] == 'up_down':  
-            growth_multiplier = 1 + random.uniform(-0.1, 0.1)  
-        elif company['profile'] == 'declining':  
-            growth_multiplier = 1 - random.uniform(0.05, 0.15)  
-  
-        # Update financials  
-        revenue *= growth_multiplier  
-        ebitda = revenue * random.uniform(-0.2, 0.2)  
+          
+        # Adjust EBITDA margin slowly over time  
+        ebitda_margin_change = random.uniform(-0.01, 0.01)  # Small change each month  
+        ebitda_margin += ebitda_margin_change  
+        ebitda_margin = max(min(ebitda_margin, 0.2), -0.2)  # Keep it within [-20%, 20%]  
+          
+        # Adjust revenue based on growth rate with minor randomness  
+        growth_rate = company['growth_rate']  
+        randomness = random.uniform(-0.005, 0.005)  # Minor randomness  
+        revenue *= (1 + growth_rate + randomness)  
+          
+        # Update EBITDA based on new margin  
+        ebitda = revenue * ebitda_margin  
+          
+        # Update cash  
         cash += ebitda  # Cash changes by EBITDA  
-  
-        # Check if the company has died  
+          
+        # Check if the company has run out of cash  
         if cash <= 0:  
             print(f"{company['name']} has run out of cash and is now defunct.")  
             break  
-  
-        # Update other metrics  
-        staff = max(1, int(staff * growth_multiplier))  
-        clients = max(0, int(clients * growth_multiplier))  
+          
+        # Adjust staff and clients proportional to revenue growth  
+        staff = max(1, int(staff * (1 + growth_rate + randomness)))  
+        clients = max(0, int(clients * (1 + growth_rate + randomness)))  
+          
         arr = revenue * 12  
         runway = cash / (-ebitda) if ebitda < 0 else float('inf')  
-  
+          
         data.append({  
             'date': date.strftime('%Y-%m'),  
             'revenues': round(revenue, 2),  
@@ -69,7 +77,7 @@ def generate_company_data(company):
             'clients': clients,  
             'arr': round(arr, 2)  
         })  
-  
+          
     return data  
   
 # Generate data for all companies  
