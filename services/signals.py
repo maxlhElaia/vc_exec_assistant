@@ -74,6 +74,7 @@ def generate_linkedin_from_file():
                 yield type_.model_validate(signal_raw)
 
 if __name__ == '__main__':
-    signals = generate_signals([])
-    for signal in signals:
-        print(signal)
+    signals = generate_linkedin_from_file()
+    # signals = generate_signals([])
+    # for signal in signals:
+    #     print(signal)

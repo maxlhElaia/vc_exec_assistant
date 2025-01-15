@@ -70,13 +70,19 @@ class Action(BaseModel):
     score: float
 
 class EmailAction(Action):
-    pass
+    context_message: str
+    email_message: str
+
+
 
 class CommentAction(Action):
-    pass
+    context_message: str
+    comment_message: str
 
 class ShareOrRepostAction(Action):
-    pass
+    context_message: str
+    reaction: str
+
 
 class Contact(BaseModel):
     name: str
