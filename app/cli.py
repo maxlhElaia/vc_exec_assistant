@@ -9,7 +9,7 @@ def run():
     for signal in generate_signals():
         # print(signal)
         if type(signal) == PressMentionSignal:
-            print('Press Mention Signal')
+            print("Received Press Mention Signal")
             agent = PressMentionAgent()
             actions = agent.process_signals([signal])
             for action in actions:

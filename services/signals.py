@@ -8,6 +8,16 @@ import psycopg2
 from domain.models import Company, HeadcountChangeSignal, Signal
 from services.companies import generate_companies
 
+# class Company(BaseModel):
+#     model_config = ConfigDict(from_attributes=True)
+
+#     name: str
+#     domain: str
+#     linkedin_url: str|None
+#     description: str
+#     industry: str
+#     location: str
+#     primary_contact: Contact|None
 
 def generate_signals() -> typing.Iterable[Signal]:
     for i in range(1):
@@ -17,6 +27,7 @@ def generate_signals() -> typing.Iterable[Signal]:
             domain='example.com',
             industry='example',
             location='Paris, France',
+            linkedin_url=None,
             primary_contact=None,
         )
 

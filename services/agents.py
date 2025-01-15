@@ -44,18 +44,19 @@ class PressMentionAgent(Agent):
         return completion.choices[0].message.content.strip()
     
     def get_score(self, signal: PressMentionSignal) -> float:
-        normalized_engagement = min(signal.engagement_count / 1000, 1.0)
+        print("Computing relevance score for signal:", signal.title)
+        normalized_engagement = min(signal.engagement_count / 500, 1.0)
         
         platform_scores = {
-            "LinkedIn": 1.0,
-            "Twitter": 0.8,
-            "Facebook": 0.6,
-            "Other": 0.4
+            "linkedin": 1.0,
+            "twitter": 0.8,
+            "facebook": 0.6,
+            "other": 0.4
         }
         platform_score = platform_scores.get(signal.plateform, 0.4)
         
         days_since_post = (datetime.datetime.now() - signal.post_date).days
-        if days_since_post <= 7:
+        if days_since_post <= 15:
             recency_score = 1.0
         elif days_since_post <= 30:
             recency_score = 0.5
@@ -75,6 +76,7 @@ class PressMentionAgent(Agent):
         actions = []
         for signal in signals:
             signal_score = self.get_score(signal)
+            print("Relenvance score for signal:", signal.title, signal_score)
 
             if signal_score < 0.5:
                 continue
@@ -84,17 +86,15 @@ class PressMentionAgent(Agent):
             try:
                 # message, score = output.split("- Score:")
                 output = output.replace("- Message:", "").strip()
-                score = float(score.strip())
             except ValueError:
                 output = "An important mention was detected, but the message couldn't be generated."
-                score = 0.5
 
             action = Action(
                 signal=signal,
                 title=f"Press Mention: {signal.title}",
                 description=output,
                 url=signal.url_link,
-                score=score,
+                score=signal_score,
             )
             actions.append(action)            
         return actions
