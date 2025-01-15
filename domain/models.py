@@ -1,10 +1,26 @@
 import datetime
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
+
+class Contact(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    name: str
+    email: str
 
 class Company(BaseModel):
-    pass
+    model_config = ConfigDict(from_attributes=True)
+
+    name: str
+    domain: str
+    linkedin_url: str|None
+    description: str
+    industry: str
+    location: str
+    primary_contact: Contact|None
 
 class Signal(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
     id: str
     start_time: datetime.datetime
     end_time: datetime.datetime
