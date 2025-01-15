@@ -33,6 +33,9 @@ class HeadcountChangeSignal(Signal):
     headcount_new: int
     headcount_old: int 
 
+class FollowerCountChangeSignal(Signal):
+    followercount_new: int
+    followercount_old: int
 
 class ReportingChangeSignal(Signal):
     revenues_new : float
