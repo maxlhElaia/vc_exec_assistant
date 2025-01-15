@@ -9,7 +9,7 @@ from domain.models import Company, HeadcountChangeSignal, Signal
 from services.companies import generate_companies
 
 
-def generate_signals() -> typing.Iterable[Signal]:
+def generate_signals(companies: list[Company]) -> typing.Iterable[Signal]:
     for i in range(1):
         company = Company(
             name=f'company {i}',
