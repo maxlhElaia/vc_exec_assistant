@@ -8,8 +8,8 @@ from domain.models import Signal, Company
 class PDLClient:
     def __init__(self):
         self.headers = {
-            'X-Api-Key': "3ticb_pohs8hrbbepsry",
-            'X-Api-Token': "m6xyKvi65VR3hoexQx5B",
+            'X-Api-Key': "----",
+            'X-Api-Token': "----",
         }
         
     def get_job_openings(self, domain: str) -> int:
