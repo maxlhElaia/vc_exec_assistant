@@ -6,7 +6,7 @@ from services.agents import PressMentionAgent
 
 @click.command()
 def run():
-    for signal in generate_signals():
+    for signal in generate_signals([]):
         # print(signal)
         if type(signal) == PressMentionSignal:
             print("Received Press Mention Signal")
