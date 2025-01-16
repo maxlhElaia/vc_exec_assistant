@@ -43,6 +43,10 @@ class FollowerCountChangeSignal(Signal):
     followercount_old: int
 
 
+class NewBacklinkSignal(Signal):
+    backlink_url: str
+
+
 class NewCompetitorSignal(Signal):
     competitor: Company
 

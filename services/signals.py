@@ -7,13 +7,13 @@ from domain.models import (
     Company,
     FollowerCountChangeSignal,
     HeadcountChangeSignal,
+    NewBacklinkSignal,
     NewCompetitorSignal,
     PressMentionSignal,
     Signal,
 )
 
 from domain.models import Company, HeadcountChangeSignal, Signal
-from services.startupradar import generate_competitors
 
 LOGGER = logging.getLogger(__name__)
 
@@ -45,6 +45,48 @@ class RandomHeadcountChangeSignalProvider(SignalProvider):
                 headcount_new=hc_new,
             )
         ]
+
+
+class RandomBacklinkProvider(SignalProvider):
+    def generate_for_company(self, company):
+        from services.startupradar import generate_backlinks_for_company
+
+        backlinks = list(generate_backlinks_for_company(company))
+        backlink = random.choice(backlinks) if backlinks else None
+        if not backlink:
+            return []
+        signal = NewBacklinkSignal(
+            id=f"new_backlink_{company.name}_{backlink['url']}",
+            start_time=datetime.datetime.now(),
+            end_time=datetime.datetime.now(),
+            title=f"New mention: {backlink['domain']}",
+            description=f"{company.name} got mentioned here: {backlink['url']}",
+            company=company,
+            backlink_url=backlink["url"],
+        )
+        return [signal]
+
+
+class RandomCompetitorProvider(SignalProvider):
+    def generate_for_company(self, company):
+        from services.startupradar import generate_competitors
+
+        competitors = list(generate_competitors(company))
+        competitor = random.choice(competitors) if competitors else None
+
+        if not competitor:
+            return []
+
+        signal = NewCompetitorSignal(
+            id=f"new_competitor_{company.name}_{competitor.name}",
+            start_time=datetime.datetime.now(),
+            end_time=datetime.datetime.now(),
+            title=f"New competitor: {competitor.name}",
+            description=f"{competitor.name} is a new competitor to {company.name}",
+            company=company,
+            competitor=competitor,
+        )
+        return [signal]
 
 
 class MockCompetitorSignalProvider(SignalProvider):
@@ -80,38 +122,17 @@ def generate_signals(companies: list[Company]) -> typing.Iterable[Signal]:
 
 
 def generate_signals_for_company(company: Company) -> typing.Iterable[Signal]:
-    hc_old = random.randint(10, 100)
-    hc_new = max(hc_old + random.randint(-10, 10), 0)
-    diff = hc_new - hc_old
+    number = random.random()
 
-    if random.random() < 0.0:
-        return [
-            HeadcountChangeSignal(
-                id=f"headcount_change_{company.name}",
-                start_time=datetime.datetime.now(),
-                end_time=datetime.datetime.now(),
-                title=f"Headcount {'grew' if diff > 0 else 'shrank'}",
-                description=f"The headcount of this company {'grew' if diff > 0 else 'shrank'} from {hc_old} to {hc_new} in the last month",
-                company=company,
-                headcount_old=hc_old,
-                headcount_new=hc_new,
-            )
-        ]
+    if number < 0.0:
+        headcount_change_provider = RandomHeadcountChangeSignalProvider()
+        return headcount_change_provider.generate_for_company(company)
+    elif number < 1.0:
+        backlink_provider = RandomBacklinkProvider()
+        return backlink_provider.generate_for_company(company)
     else:
-        competitors = list(generate_competitors(company))
-        if competitors:
-            competitor = random.choice(competitors)
-
-            signal = NewCompetitorSignal(
-                id=f"new_competitor_{company.name}_{competitor.name}",
-                start_time=datetime.datetime.now(),
-                end_time=datetime.datetime.now(),
-                title=f"New competitor: {competitor.name}",
-                description=f"{competitor.name} is a new competitor to {company.name}",
-                company=company,
-                competitor=competitor,
-            )
-            return [signal]
+        competitor_provider = RandomCompetitorProvider()
+        return competitor_provider.generate_for_company(company)
 
 
 def generate_dummy_signals(companies: list[Company]) -> typing.Iterable[Signal]:
