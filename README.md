@@ -18,7 +18,7 @@ Features:
 - automatic monitoring of the ecosystem
 - agentic creation of signals/alerts with proposed course of action
 
-Sources for Singals:
+Sources for Signals:
 
 - 🧑‍🧑‍🧒‍🧒 headcount monitoring via Harmonic
 - 📂 open positions monitoring based on PredictLeads
