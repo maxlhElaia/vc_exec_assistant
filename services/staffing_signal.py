@@ -5,43 +5,46 @@ import typing
 from typing import Dict, Any, List
 from domain.models import Signal, Company
 
+
 class PDLClient:
     def __init__(self):
         self.headers = {
-            'X-Api-Key': "----",
-            'X-Api-Token': "----",
+            "X-Api-Key": "----",
+            "X-Api-Token": "----",
         }
-        
+
     def get_job_openings(self, domain: str) -> int:
         conn = http.client.HTTPSConnection("predictleads.com")
         try:
-            conn.request("GET", f"/api/v3/companies/{domain}/job_openings", 
-                        headers=self.headers)
+            conn.request(
+                "GET", f"/api/v3/companies/{domain}/job_openings", headers=self.headers
+            )
             res = conn.getresponse()
             data = json.loads(res.read().decode("utf-8"))
-            job_listings = data.get('data', [])
+            job_listings = data.get("data", [])
             return len(job_listings)
         finally:
             conn.close()
-    
+
     def get_data(self, domain: str) -> Dict[str, Any]:
         conn = http.client.HTTPSConnection("predictleads.com")
         try:
-            conn.request("GET", f"/api/v3/companies/{domain}", 
-                        headers=self.headers)
+            conn.request("GET", f"/api/v3/companies/{domain}", headers=self.headers)
             res = conn.getresponse()
             data = json.loads(res.read().decode("utf-8"))
             return data
         finally:
             conn.close()
 
+
 pdl_client = PDLClient()
 
-def generate_staffing_signals(pdl_client: PDLClient, 
-                            companies: List[Company], 
-                            prev_job_counts: dict) -> typing.Iterable[Signal]:
+
+def generate_staffing_signals(
+    pdl_client: PDLClient, companies: List[Company], prev_job_counts: dict
+) -> typing.Iterable[Signal]:
     """
-    Generate staffing signals based on job openings for companies, 
+    Generate staffing signals based on job openings for companies,
     comparing to previous counts
     """
 
@@ -55,30 +58,35 @@ def generate_staffing_signals(pdl_client: PDLClient,
 
             if current_openings > prev_openings:
                 change = "increased"
-                magnitude = "significantly " if current_openings - prev_openings > 10 else ""
+                magnitude = (
+                    "significantly " if current_openings - prev_openings > 10 else ""
+                )
             elif current_openings < prev_openings:
                 change = "decreased"
-                magnitude = "significantly " if prev_openings - current_openings > 10 else ""
+                magnitude = (
+                    "significantly " if prev_openings - current_openings > 10 else ""
+                )
             else:
                 change = "remained the same"
                 magnitude = ""
-            
+
             if current_openings != prev_openings:
                 signal = Signal(
-                    id=f"staffing_{company.domain}_{datetime.datetime.now().isoformat()}", # Generate unique ID
+                    id=f"staffing_{company.domain}_{datetime.datetime.now().isoformat()}",  # Generate unique ID
                     start_time=datetime.datetime.now(),
-                    end_time=datetime.datetime.now(), 
+                    end_time=datetime.datetime.now(),
                     title=f"Job Openings Changed for {company.name}",
                     description=f"Job openings {magnitude}{change} from {prev_openings} to {current_openings}",
-                    company=company.model_dump()
+                    company=company.model_dump(),
                 )
                 yield signal
-                
+
             # Update previous count for next comparison
             prev_job_counts[company.domain] = current_openings
-            
+
         except Exception as e:
             print(f"Error getting job openings for {company.domain}: {str(e)}")
+
 
 if __name__ == "__main__":
     companies = [
@@ -89,7 +97,7 @@ if __name__ == "__main__":
             description="A great company",
             industry="Tech",
             location="San Francisco, CA",
-            primary_contact=None
+            primary_contact=None,
         )
     ]
     prev_job_counts = {}

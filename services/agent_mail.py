@@ -4,20 +4,28 @@ import smtplib
 from domain.models import PressMentionSignal, Action
 from agents import PressMentionAgent
 
-def agent_mail(signals: list[PressMentionSignal], smtp_server: str, smtp_port: int, sender_email: str, sender_password: str, recipient_email: str):
+
+def agent_mail(
+    signals: list[PressMentionSignal],
+    smtp_server: str,
+    smtp_port: int,
+    sender_email: str,
+    sender_password: str,
+    recipient_email: str,
+):
     """
-    
+
     parm：
     - signals: treat PressMentionSignal list
-    - smtp_server: SMTP 
-    - smtp_port: SMTP 
-    - sender_email: 
-    - sender_password: 
-    - recipient_email: 
+    - smtp_server: SMTP
+    - smtp_port: SMTP
+    - sender_email:
+    - sender_password:
+    - recipient_email:
     """
     agent = PressMentionAgent()
     actions = agent.process_signals(signals)
-    
+
     # set SMTP server
     server = smtplib.SMTP(smtp_server, smtp_port)
     server.starttls()
