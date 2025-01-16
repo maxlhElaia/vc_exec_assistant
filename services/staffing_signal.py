@@ -120,6 +120,12 @@ def generate_staffing_signals(
         except Exception as e:
             print(f"Error getting job openings for {company.domain}: {str(e)}")
 
+def add_staffing_signals(companies: list[Company], company_signals: list[Signal]) -> None:
+    prev_job_counts = load_prev_job_counts("../.data/prev_job_counts.json")
+
+    for company in companies:
+        staffing_signals = generate_staffing_signals(pdl_client, [company], prev_job_counts)
+        company_signals.extend(staffing_signals)
 
 if __name__ == "__main__":
     companies = [
