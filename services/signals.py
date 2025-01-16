@@ -18,6 +18,55 @@ from services.startupradar import generate_competitors
 LOGGER = logging.getLogger(__name__)
 
 
+class SignalProvider:
+    """
+    A generic class that provides signals for a given company
+    """
+
+    def generate_for_company(self, company: Company) -> typing.Iterable[Signal]:
+        raise NotImplementedError()
+
+
+class RandomHeadcountChangeSignalProvider(SignalProvider):
+    def generate_for_company(self, company):
+        hc_old = random.randint(10, 100)
+        hc_new = max(hc_old + random.randint(-10, 10), 0)
+        diff = hc_new - hc_old
+
+        return [
+            HeadcountChangeSignal(
+                id=f"headcount_change_{company.name}",
+                start_time=datetime.datetime.now(),
+                end_time=datetime.datetime.now(),
+                title=f"Headcount {'grew' if diff > 0 else 'shrank'}",
+                description=f"The headcount of this company {'grew' if diff > 0 else 'shrank'} from {hc_old} to {hc_new} in the last month",
+                company=company,
+                headcount_old=hc_old,
+                headcount_new=hc_new,
+            )
+        ]
+
+
+class MockCompetitorSignalProvider(SignalProvider):
+    def generate_for_company(self, company) -> typing.Iterable[NewCompetitorSignal]:
+        # this just returns the current company as competitor
+        competitors = [company]
+
+        if competitors:
+            competitor = random.choice(competitors)
+
+            signal = NewCompetitorSignal(
+                id=f"new_competitor_{company.name}_{competitor.name}",
+                start_time=datetime.datetime.now(),
+                end_time=datetime.datetime.now(),
+                title=f"New competitor: {competitor.name}",
+                description=f"{competitor.name} is a new competitor to {company.name}",
+                company=company,
+                competitor=competitor,
+            )
+            return [signal]
+
+
 def generate_signals(companies: list[Company]) -> typing.Iterable[Signal]:
     signals = []
 
