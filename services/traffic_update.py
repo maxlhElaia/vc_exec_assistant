@@ -18,7 +18,7 @@ def get_social_mentions(company_domain="google.com", start_date="2024-12", end_d
     }
 
     headers = {
-        "api-key": "5145365ab2a741a794892d13ec3ce7ea"
+        "api-key": ""
     }
 
     response = requests.request("GET", url, headers=headers, data=payload)
