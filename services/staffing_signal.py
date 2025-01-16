@@ -7,6 +7,7 @@ from typing import Dict, Any, List
 from domain.models import Signal, Company
 import os
 
+
 def get_headcount(company: Company) -> int:
     url = f"https://api.harmonic.ai/companies?website_domain={company.domain}"
     headers = {
@@ -25,6 +26,7 @@ def get_headcount(company: Company) -> int:
         print(f"Error decoding JSON response for {company.domain}: {str(e)}")
         headcount = 0
     return headcount
+
 
 class PDLClient:
     def __init__(self):
@@ -59,15 +61,18 @@ class PDLClient:
 
 pdl_client = PDLClient()
 
+
 def load_prev_job_counts(file_path: str) -> Dict[str, int]:
     if os.path.exists(file_path):
         with open(file_path, "r") as f:
             return json.load(f)
     return {}
 
+
 def save_prev_job_counts(file_path: str, prev_job_counts: Dict[str, int]):
     with open(file_path, "w") as f:
         json.dump(prev_job_counts, f, indent=4)
+
 
 def generate_staffing_signals(
     pdl_client: PDLClient, companies: List[Company], prev_job_counts: dict
@@ -78,7 +83,7 @@ def generate_staffing_signals(
     """
 
     for company in companies:
-        if (get_headcount(company) != 0):
+        if get_headcount(company) != 0:
             headcount = "Headcounter:" + str(get_headcount(company))
         else:
             headcount = ""
@@ -120,12 +125,18 @@ def generate_staffing_signals(
         except Exception as e:
             print(f"Error getting job openings for {company.domain}: {str(e)}")
 
-def add_staffing_signals(companies: list[Company], company_signals: list[Signal]) -> None:
+
+def add_staffing_signals(
+    companies: list[Company], company_signals: list[Signal]
+) -> None:
     prev_job_counts = load_prev_job_counts("./.data/prev_job_counts.json")
 
     for company in companies:
-        staffing_signals = generate_staffing_signals(pdl_client, [company], prev_job_counts)
+        staffing_signals = generate_staffing_signals(
+            pdl_client, [company], prev_job_counts
+        )
         company_signals.extend(staffing_signals)
+
 
 if __name__ == "__main__":
     companies = [

@@ -10,10 +10,12 @@ from domain.models import (
     NewBacklinkSignal,
     NewCompetitorSignal,
     PressMentionSignal,
+    ReportingChangeSignal,
     Signal,
 )
 
 from domain.models import Company, HeadcountChangeSignal, Signal
+from services.traffic_update import get_social_mentions
 
 LOGGER = logging.getLogger(__name__)
 
@@ -109,6 +111,57 @@ class MockCompetitorSignalProvider(SignalProvider):
             return [signal]
 
 
+class TrafficUpdateProvider(SignalProvider):
+    def generate_for_company(self, company):
+        changes = get_social_mentions(
+            company_domain=company.domain, start_date="2024-12", end_date="2025-01"
+        )
+        print(changes)
+        exit()
+
+
+class CompanyReportSignalProvider(SignalProvider):
+    def generate_for_company(self, company):
+        signal = ReportingChangeSignal(
+            id=f"reporting_change_{company.name}",
+            start_time=datetime.datetime.now(),
+            end_time=datetime.datetime.now(),
+            title="Reporting received",
+            description="",
+            company=company,
+            # data
+            revenues_old=900_000,
+            revenues_new=1_000_000,
+            cash_eop_old=900_000,
+            cash_eop_new=800_000,
+            ebitda_old=19_000,
+            ebitda_new=20_000,
+            runway_months_new=8,
+            runway_months_old=7,
+            staff_old=9,
+            staff_new=10,
+            clients_old=9,
+            clients_new=10,
+            arr_old=900_000,
+            arr_new=1_000_000,
+        )
+
+        # set real description
+        description = f"""
+            Reporting Details:
+            - Revenues: {signal.revenues_new} (old: {signal.revenues_old})
+            - Cash EOP: {signal.cash_eop_new} (old: {signal.cash_eop_old})
+            - EBITDA: {signal.ebitda_new} (old: {signal.ebitda_old})
+            - Runway: {signal.runway_months_new} months (old: {signal.runway_months_old})
+            - Staff: {signal.staff_new} (old: {signal.staff_old})
+            - Clients: {signal.clients_new} (old: {signal.clients_old})
+            - ARR: {signal.arr_new} (old: {signal.arr_old})
+        """
+        signal.description = description
+
+        return [signal]
+
+
 def generate_signals(companies: list[Company]) -> typing.Iterable[Signal]:
     signals = []
 
@@ -124,7 +177,10 @@ def generate_signals(companies: list[Company]) -> typing.Iterable[Signal]:
 def generate_signals_for_company(company: Company) -> typing.Iterable[Signal]:
     number = random.random()
 
-    if number < 0.0:
+    if number < 1.0:
+        report_provider = CompanyReportSignalProvider()
+        return report_provider.generate_for_company(company)
+    elif number < 1.0:
         headcount_change_provider = RandomHeadcountChangeSignalProvider()
         return headcount_change_provider.generate_for_company(company)
     elif number < 1.0:
