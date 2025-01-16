@@ -2,9 +2,28 @@ import datetime
 import http.client
 import json
 import typing
+import requests
 from typing import Dict, Any, List
 from domain.models import Signal, Company
 
+def get_headcount(company: Company) -> int:
+    url = f"https://api.harmonic.ai/companies?website_domain={company.domain}"
+    headers = {
+        "accept": "application/json",
+        "apikey": "---",
+    }
+    try:
+        response = requests.post(url, headers=headers)
+        response.raise_for_status()
+        data = response.json()
+        headcount = data.get("headcount", 0)
+    except requests.RequestException as e:
+        print(f"Error fetching headcount for {company.domain}: {str(e)}")
+        headcount = 0
+    except json.JSONDecodeError as e:
+        print(f"Error decoding JSON response for {company.domain}: {str(e)}")
+        headcount = 0
+    return headcount
 
 class PDLClient:
     def __init__(self):
@@ -49,6 +68,10 @@ def generate_staffing_signals(
     """
 
     for company in companies:
+        if (get_headcount(company) != 0):
+            headcount = "Headcounter:" + str(get_headcount(company))
+        else:
+            headcount = ""
         data = pdl_client.get_data(company.domain)
         with open(f"./.data/{company.domain}.json", "w") as f:
             json.dump(data, f, indent=4)
@@ -76,7 +99,7 @@ def generate_staffing_signals(
                     start_time=datetime.datetime.now(),
                     end_time=datetime.datetime.now(),
                     title=f"Job Openings Changed for {company.name}",
-                    description=f"Job openings {magnitude}{change} from {prev_openings} to {current_openings}",
+                    description=f"{headcount}\nJob openings {magnitude}{change} from {prev_openings} to {current_openings}",
                     company=company.model_dump(),
                 )
                 yield signal
