@@ -6,7 +6,12 @@ from dotenv import load_dotenv
 from openai import OpenAI
 from domain.models import Action, Note, Signal
 from infrastructure.attio import CRM, Attio
-from services.agents import Agent, EmailTheTeamAgent, PostOnLinkedinAgent
+from services.agents import (
+    Agent,
+    EmailTheTeamAgent,
+    PostOnLinkedinAgent,
+    ReportSummaryAgent,
+)
 from services.signals import generate_signals
 
 # use root logger here
@@ -43,7 +48,11 @@ def run():
     # push signals to agents
     results = []
 
-    agents = [EmailTheTeamAgent(openai), PostOnLinkedinAgent(openai)]
+    agents = [
+        ReportSummaryAgent(openai),
+        EmailTheTeamAgent(openai),
+        PostOnLinkedinAgent(openai),
+    ]
     for signal in signals:
         actions = []
         for agent in agents:

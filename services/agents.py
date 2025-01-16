@@ -1,7 +1,13 @@
 from abc import ABC
 import logging
 
-from domain.models import Action, HeadcountChangeSignal, Signal, PressMentionSignal
+from domain.models import (
+    Action,
+    HeadcountChangeSignal,
+    ReportingChangeSignal,
+    Signal,
+    PressMentionSignal,
+)
 from openai import OpenAI
 
 LOGGER = logging.getLogger(__name__)
@@ -16,6 +22,53 @@ class Agent(ABC):
 
     def can_handle_signal(self, signal: Signal) -> bool:
         raise NotImplemented()
+
+
+class ReportSummaryAgent(Agent):
+    def __init__(self, openai):
+        self.client = openai
+
+    def can_handle_signal(self, signal):
+        return isinstance(signal, ReportingChangeSignal)
+
+    def prompt_summary(self, signal: ReportingChangeSignal):
+        prompt = f"""
+            You're a Venture Capital investor and you just received the following reporting from a portfolio company.
+            Summarize it in a few sentences, then highlight anything notable or concerning.
+
+            {signal.title}
+            {signal.description}
+            {signal.company.name}
+
+            Reporting Details:
+            - Revenues: {signal.revenues_new} (old: {signal.revenues_old})
+            - Cash EOP: {signal.cash_eop_new} (old: {signal.cash_eop_old})
+            - EBITDA: {signal.ebitda_new} (old: {signal.ebitda_old})
+            - Runway: {signal.runway_months_new} months (old: {signal.runway_months_old})
+            - Staff: {signal.staff_new} (old: {signal.staff_old})
+            - Clients: {signal.clients_new} (old: {signal.clients_old})
+            - ARR: {signal.arr_new} (old: {signal.arr_old})
+        """
+        LOGGER.info(f"prompting summary: {prompt}")
+
+        messages = [{"role": "system", "content": prompt}]
+
+        completion = self.client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=messages,
+            temperature=0.7,
+        )
+        return completion.choices[0].message.content
+
+    def process_signal(self, signal: Signal) -> Action:
+        summary = self.prompt_summary(signal)
+        return Action(
+            signal=signal,
+            title="AI-based reporting analysis",
+            description=summary,
+            url=None,
+            score=1.0,
+        )
 
 
 class EmailTheTeamAgent(Agent):
@@ -74,6 +127,9 @@ class EmailTheTeamAgent(Agent):
 class PostOnLinkedinAgent(EmailTheTeamAgent):
     def can_handle_signal(self, signal):
         if isinstance(signal, HeadcountChangeSignal):
+            return True
+
+        if isinstance(signal, ReportingChangeSignal):
             return True
 
         return False
