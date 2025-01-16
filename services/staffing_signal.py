@@ -5,6 +5,7 @@ import typing
 import requests
 from typing import Dict, Any, List
 from domain.models import Signal, Company
+import os
 
 def get_headcount(company: Company) -> int:
     url = f"https://api.harmonic.ai/companies?website_domain={company.domain}"
@@ -58,6 +59,15 @@ class PDLClient:
 
 pdl_client = PDLClient()
 
+def load_prev_job_counts(file_path: str) -> Dict[str, int]:
+    if os.path.exists(file_path):
+        with open(file_path, "r") as f:
+            return json.load(f)
+    return {}
+
+def save_prev_job_counts(file_path: str, prev_job_counts: Dict[str, int]):
+    with open(file_path, "w") as f:
+        json.dump(prev_job_counts, f, indent=4)
 
 def generate_staffing_signals(
     pdl_client: PDLClient, companies: List[Company], prev_job_counts: dict
@@ -123,6 +133,8 @@ if __name__ == "__main__":
             primary_contact=None,
         )
     ]
-    prev_job_counts = {}
+    prev_job_counts_file = "./.data/prev_job_counts.json"
+    prev_job_counts = load_prev_job_counts(prev_job_counts_file)
     for signal in generate_staffing_signals(pdl_client, companies, prev_job_counts):
         print(signal)
+    save_prev_job_counts(prev_job_counts_file, prev_job_counts)
