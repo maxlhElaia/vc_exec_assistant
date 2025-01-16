@@ -12,17 +12,19 @@ To support VCs in their day-to-day work, we created an agentic framework
 that provides the basis for agentic behavior in daily operations.
 
 Features:
+
 - automated monitoring of portfolio companies (or targets) in any funnel
 - fully integrated into the CRM
 - automatic monitoring of the ecosystem
 - agentic creation of signals/alerts with proposed course of action
 
 Sources for Singals:
-🧑‍🧑‍🧒‍🧒 headcount monitoring via Harmonic
-📂 open positions monitoring based on PredictLeads
-📊 reporting analysis based on OpenAI
-⚔ competitor monitoring based on similarweb
-💬 tracking of mentions around the web
+
+- 🧑‍🧑‍🧒‍🧒 headcount monitoring via Harmonic
+- 📂 open positions monitoring based on PredictLeads
+- 📊 reporting analysis based on OpenAI
+- ⚔ competitor monitoring based on similarweb
+- 💬 tracking of mentions around the web
 
 ## Architecture
 This repo is built with layered/onion architecture.
@@ -30,6 +32,7 @@ The domain module defines all domain objects.
 On top of this we have services.
 Services can create signals, i.e. monitor a specific company.
 They also react on signals and propose course of action (agents).
+Finally, the signals with the agentic actions get pushed back into the CRM.
 
 ![architecture diagram](.github/architecture.png)
 
