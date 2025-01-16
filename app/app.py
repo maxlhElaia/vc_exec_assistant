@@ -4,6 +4,8 @@ import time
 
 st.title('MidasAI')
 
+markdown_filepath = "example.md"
+
 if 'show_content' not in st.session_state:
     st.session_state.show_content = False
 
@@ -37,7 +39,7 @@ if st.session_state.show_content:
         st.rerun()
         
     markdown_content = ""
-    with open('example.md', 'r') as file:
+    with open(markdown_filepath, 'r') as file:
         markdown_content = file.read()
     
     st.download_button(
