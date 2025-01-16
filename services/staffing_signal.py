@@ -6,13 +6,16 @@ import requests
 from typing import Dict, Any, List
 from domain.models import Signal, Company
 import os
+from dotenv import load_dotenv
 
+load_dotenv()
 
 def get_headcount(company: Company) -> int:
+    HARMONIC_API_KEY = os.getenv("HARMONIC_API_KEY")
     url = f"https://api.harmonic.ai/companies?website_domain={company.domain}"
     headers = {
         "accept": "application/json",
-        "apikey": "---",
+        "apikey": HARMONIC_API_KEY,
     }
     try:
         response = requests.post(url, headers=headers)
@@ -27,12 +30,15 @@ def get_headcount(company: Company) -> int:
         headcount = 0
     return headcount
 
-
 class PDLClient:
     def __init__(self):
+        PDL_API_KEY = os.getenv("PDL_API_KEY")
+        PDL_API_TOKEN = os.getenv("PDL_API_TOKEN")
+        if not PDL_API_KEY or not PDL_API_TOKEN:
+            raise ValueError("PDL_API_KEY and PDL_API_TOKEN must be set")
         self.headers = {
-            "X-Api-Key": "----",
-            "X-Api-Token": "----",
+            "X-Api-Key": PDL_API_KEY,
+            "X-Api-Token": PDL_API_TOKEN,
         }
 
     def get_job_openings(self, domain: str) -> int:
@@ -61,18 +67,15 @@ class PDLClient:
 
 pdl_client = PDLClient()
 
-
 def load_prev_job_counts(file_path: str) -> Dict[str, int]:
     if os.path.exists(file_path):
         with open(file_path, "r") as f:
             return json.load(f)
     return {}
 
-
 def save_prev_job_counts(file_path: str, prev_job_counts: Dict[str, int]):
     with open(file_path, "w") as f:
         json.dump(prev_job_counts, f, indent=4)
-
 
 def generate_staffing_signals(
     pdl_client: PDLClient, companies: List[Company], prev_job_counts: dict
@@ -83,7 +86,7 @@ def generate_staffing_signals(
     """
 
     for company in companies:
-        if get_headcount(company) != 0:
+        if (get_headcount(company) != 0):
             headcount = "Headcounter:" + str(get_headcount(company))
         else:
             headcount = ""
@@ -125,24 +128,32 @@ def generate_staffing_signals(
         except Exception as e:
             print(f"Error getting job openings for {company.domain}: {str(e)}")
 
-
-def add_staffing_signals(
-    companies: list[Company], company_signals: list[Signal]
-) -> None:
+def add_staffing_signals(companies: list[Company], company_signals: list[Signal]) -> None:
     prev_job_counts = load_prev_job_counts("./.data/prev_job_counts.json")
 
     for company in companies:
-        staffing_signals = generate_staffing_signals(
-            pdl_client, [company], prev_job_counts
-        )
+        staffing_signals = generate_staffing_signals(pdl_client, [company], prev_job_counts)
         company_signals.extend(staffing_signals)
 
+def initialize_prev_job_counts(companies: List[Company], file_path: str):
+    prev_job_counts = {}
+    if os.path.exists(file_path):
+        return
+    else:
+        for company in companies:
+            try:
+                current_openings = pdl_client.get_job_openings(company.domain)
+                prev_job_counts[company.domain] = current_openings
+            except Exception as e:
+                print(f"Error initializing job openings for {company.domain}: {str(e)}")
+                prev_job_counts[company.domain] = 0
+        save_prev_job_counts(file_path, prev_job_counts)
 
 if __name__ == "__main__":
     companies = [
         Company(
             name="Example Company",
-            domain="google.com",
+            domain="meta.com",
             linkedin_url=None,
             description="A great company",
             industry="Tech",
@@ -151,6 +162,7 @@ if __name__ == "__main__":
         )
     ]
     prev_job_counts_file = "./.data/prev_job_counts.json"
+    initialize_prev_job_counts(companies, prev_job_counts_file)
     prev_job_counts = load_prev_job_counts(prev_job_counts_file)
     for signal in generate_staffing_signals(pdl_client, companies, prev_job_counts):
         print(signal)
